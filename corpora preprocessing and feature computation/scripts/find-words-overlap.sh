@@ -1,0 +1,22 @@
+env/bin/python main.py find-words-overlap --group AFJ1 | tee output/find_words_overlap_AFJ1.log &
+env/bin/python main.py find-words-overlap --group AMN1 | tee output/find_words_overlap_AMN1.log &
+env/bin/python main.py find-words-overlap --group API1 | tee output/find_words_overlap_API1.log &
+env/bin/python main.py find-words-overlap --group ARE1 | tee output/find_words_overlap_ARE1.log &
+env/bin/python main.py find-words-overlap --group ASA1 | tee output/find_words_overlap_ASA1.log &
+env/bin/python main.py find-words-overlap --group AZC1 | tee output/find_words_overlap_AZC1.log &
+env/bin/python main.py find-words-overlap --group CJK1 | tee output/find_words_overlap_CJK1.log &
+env/bin/python main.py find-words-overlap --group EKE1 | tee output/find_words_overlap_EKE1.log &
+env/bin/python main.py find-words-overlap --group FLL1 | tee output/find_words_overlap_FLL1.log &
+env/bin/python main.py find-words-overlap --group ICE1 | tee output/find_words_overlap_ICE1.log &
+env/bin/python main.py find-words-overlap --group IDE1 | tee output/find_words_overlap_IDE1.log &
+env/bin/python main.py find-words-overlap --group IDG1 | tee output/find_words_overlap_IDG1.log &
+env/bin/python main.py find-words-overlap --group IDO1 | tee output/find_words_overlap_IDO1.log &
+env/bin/python main.py find-words-overlap --group IHG1 | tee output/find_words_overlap_IHG1.log &
+env/bin/python main.py find-words-overlap --group IHL1 | tee output/find_words_overlap_IHL1.log &
+env/bin/python main.py find-words-overlap --group IHL2 | tee output/find_words_overlap_IHL2.log &
+env/bin/python main.py find-words-overlap --group JTM1 | tee output/find_words_overlap_JTM1.log &
+env/bin/python main.py find-words-overlap --group PBZ1 | tee output/find_words_overlap_PBZ1.log &
+env/bin/python main.py find-words-overlap --group RPE1 | tee output/find_words_overlap_RPE1.log &
+env/bin/python main.py find-words-overlap --group RPI1 | tee output/find_words_overlap_RPI1.log &
+env/bin/python main.py find-words-overlap --group RZA1 | tee output/find_words_overlap_RZA1.log &
+wait

@@ -1,0 +1,294 @@
+Group,Title,docs_to_search,error,error_item,error_context,solution_item,solution_context
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']","la sociedad actual rara vez habla de los expresidiarios [y, cuando lo hace] suele ser de forma",,,,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']","(resumido) [en resumen], la mayoría de los presos",resumido,,en resumen,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",ni para los (antiguos presos) [exconvictos],antiguos presos,,exconvictos,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",un buen ejemplo es el (ex - preso) [expreso] alemán que ahora,,,expreso,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",un buen ejemplo es el (expreso) [exconvicto] alemán que ahora,expreso,,exconvicto,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']","hacer algo [al] respecto, con la esperanza de ser aceptados en la sociedad",,,al,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",hay algunas formas de (hacer) [lograr] una buena vida después de la cárcel,hacer,"AZC1_2 - hacer
+>> te quedan por hacer .
+>> ¿ Qué haces para relajar te
+>> cómo aprendo a hacer lo ?
+>> lo que te hace feliz .
+>> Lo haces por ti .
+>> un descanso y hacer acopio de energía
+
+AZC1_3 - hacer
+>> el mundo lo hace es correcto y
+
+",lograr,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",ni para la sociedad (fuera de las rejas) [libre],fuera de las rejas,,libre,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",los (ex presos) [expresidiarios],ex presos,,expresidiarios,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",¿(es una mala persona) [son malas personas] o la gente puede mejorar?,es una mala persona,,son malas personas,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",una empresa que sensibiliza a los jóvenes (llamativos) [conflictivos] sobre las consecuencias,llamativos,,conflictivos,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",no solo los (antiguos presos) [excarcelados] tienen que trabajar,antiguos presos,,excarcelados,
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",trabajar sobre (si) [sí] mismos,si,"AZC1_4 - si
+>> Si quieres ser uno
+
+",sí,"AZC1_2 - sí
+>> ¿ sí ?
+
+"
+AZC1,AZC1_1,"['AZC1_2', 'AZC1_3', 'AZC1_4']",también la sociedad (fuera de la cárcel) [libre],fuera de la cárcel,,libre,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",[en] la naturaleza suele estar la solución,,,en,"AZC1_3 - en
+>> mercado que resulta en aspectos positivos por
+>> que hay personas en el mundo que
+>> En lugares como Africa
+
+AZC1_4 - en
+>> accidente se convirtió en un éxito
+>> madrileña estuvo rodando en Barcelona el pasado
+>> Una película en la que el
+>> grupo de jóvenes en bicicleta se cayó
+>> abrieron de par en par .
+>> rodaje continuó y en una entrevista ,
+>> En una conferencia ,
+>> tal compromiso está en ello con toda
+>> de los primeros en ver la ,
+
+"
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",en la naturaleza suele (ser) [estar] la solución,ser,"AZC1_3 - ser
+>> mundo lo hace es correcto y la
+>> , nuestras vidas serían tan diferentes que
+>> da oportunidades de ser que queremos ser
+>> que la globalización es lo que mejora
+>> Es ni buena ni
+>> Es cierto que el
+>> absoluta , porque es también la tarea
+
+AZC1_4 - ser
+>> "" Fue un golpe de
+>> de esta escena era que el ciclista
+>> Eso es exactamente lo que
+>> Si quieres ser uno de los
+
+",estar,"AZC1_3 - estar
+>> ¿ Estaríamos dónde estamos hoy sin la
+>> ¿ Pero podemos estar seguro que cómo
+>> , dónde queremos estar y vivir cómo
+
+AZC1_4 - estar
+>> de cine madrileña estuvo rodando en Barcelona
+>> Todo el equipo estaba ya estresado cuando
+>> El protagonista estaba dañado , ¿
+>> muestre tal compromiso está en ello con
+
+"
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",estos momentos (sólo) [solo] existen para ti,sólo,"AZC1_3 - sólo
+>> , la población sólo recibe los mal
+
+",solo,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",cosas que nunca se (dan) [toman en] cuenta,dan,"AZC1_3 - dan
+>> la globalización nos da la oportunidad de
+>> Nos da oportunidades de ser
+
+AZC1_4 - dan
+>> Un empleado dio un grito y
+
+",toman en,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",llena de pensamientos innecesarios que ni siquiera te dejan dormir… ¿(si) [sí]?,si,"AZC1_4 - si
+>> Si quieres ser uno
+
+",sí,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",hasta altas horas de la noche (y no has) [no] durmiendo lo suficiente,y no has,,no,"AZC1_3 - no
+>> Evidentement , ¡ no !
+>> tan diferentes que no podemos imaginar .
+>> Lamentablemente , no todo el mundo
+>> No deberíamos olvidar que
+>> Para concluir , no podemos decir que
+
+"
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",¿alguna vez has estado tan (apretado) [estresado] que crees que tu cerebro va a explotar?,apretado,,estresado,"AZC1_4 - estresado
+>> equipo estaba ya estresado cuando ocurrió algo
+
+"
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",tu mente ya está (rellena) [llena] de ideas de tu día previsto y tus tareas,rellena,,llena,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",¿serán todos los días exactamente así para (mi) [mí]?,mi,,mí,"AZC1_3 - mí
+>> , la globalización nos da la oportunidad
+>> Nos ayuda mejorar la
+>> Nos da oportunidades de
+
+"
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",(camino) [camina] por un sendero que no sabes exactamente adónde conduce,camino,,camina,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",es difícil concentrarse (sólo) [solo] en eso,sólo,"AZC1_3 - sólo
+>> , la población sólo recibe los mal
+
+",solo,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",concéntrate (sólo) [solo] en las olas que se dirigen,sólo,"AZC1_3 - sólo
+>> , la población sólo recibe los mal
+
+",solo,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",(hermosos) [hermosas] memorias de vacaciones familiares,hermosos,,hermosas,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",pero tienes que (tomarte) [darte] esa oportunidad,tomarte,,darte,
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",pero tienes que tomarte (ese) [esa] oportunidad,ese,"AZC1_3 - ese
+>> naciones y por eso forma un gran
+>> mal aspectos de eso proceso .
+
+AZC1_4 - ese
+>> O eso pensaban .
+>> Eso es exactamente lo
+
+",esa,"AZC1_3 - esa
+>> naciones y por eso forma un gran
+>> mal aspectos de eso proceso .
+
+AZC1_4 - esa
+>> O eso pensaban .
+>> Eso es exactamente lo
+
+"
+AZC1,AZC1_2,"['AZC1_3', 'AZC1_4']",escapa de la rutina diaria y (sitúa) [pon] tu atención en otro lugar,sitúa,,pon,
+AZC1,AZC1_3,['AZC1_4'],nos ayuda [a] mejorar la economía,,,a,"AZC1_4 - a
+>> de la Ciutadella a la hora de
+>> intérprete pudo volver a el trabajo por
+
+"
+AZC1,AZC1_3,['AZC1_4'],nuestras vidas serían tan diferentes que no podemos (imaginar) [ni imaginárnoslas],imaginar,,ni imaginárnoslas,
+AZC1,AZC1_3,['AZC1_4'],todos los resultados positivos (llevan partes) [tienen consecuencias] muy graves,llevan partes,,tienen consecuencias,
+AZC1,AZC1_3,['AZC1_4'],estar (dónde) [donde] queremos estar,dónde,,donde,
+AZC1,AZC1_3,['AZC1_4'],los países industriales roban a los (otras paisas) [otros países],otras paisas,,otros países,
+AZC1,AZC1_3,['AZC1_4'],(evidentement) [evidentemente] no,evidentement,,evidentemente,
+AZC1,AZC1_3,['AZC1_4'],trabajar (por) [para] la reducción de la pobreza absoluta,por,"AZC1_4 - por
+>> paseaban el sábado por el parque de
+>> la caída cambió por completo el rumbo
+>> ciclista fuera atropellado por un coche ,
+>> Por suerte , el
+>> un gran futuro por delante "" ,
+
+",para,"AZC1_4 - para
+>> puedes reservar entradas para la publicación en
+
+"
+AZC1,AZC1_3,['AZC1_4'],[no] es ni buena ni mala,,,no,
+AZC1,AZC1_3,['AZC1_4'],¿podemos estar (seguro) [seguros] de que…?,seguro,,seguros,
+AZC1,AZC1_3,['AZC1_4'],la población solo recibe los (mal) [malos] aspectos de ese proceso,mal,,malos,
+AZC1,AZC1_3,['AZC1_4'],la población solo recibe los (malos) aspectos [negativos] de ese proceso,malos,,negativos,
+AZC1,AZC1_3,['AZC1_4'],sacar provecho de estas (cosas) [oportunidades],cosas,,oportunidades,
+AZC1,AZC1_3,['AZC1_4'],la población (sólo) [solo] recibe,sólo,,solo,
+AZC1,AZC1_3,['AZC1_4'],los países industriales roban [a] los otros países,,,a,"AZC1_4 - a
+>> de la Ciutadella a la hora de
+>> intérprete pudo volver a el trabajo por
+
+"
+AZC1,AZC1_3,['AZC1_4'],los países industriales roban a [los] otros países,,,los,"AZC1_4 - los
+>> De nuevo , la academia de cine
+>> Una película en la que el rodaje
+>> Todo el equipo estaba ya
+>> Transeúntes que paseaban el sábado por el
+>> grito y todos los ojos se abrieron
+>> El protagonista estaba dañado
+>> El rodaje continuó y
+>> Porque la idea original de
+>> Por suerte , el intérprete pudo volver
+>> una conferencia , el accidentado Rafael Alcaraz
+>> Prometedoras palabras de la experimentada realizadora .
+>> La nueva creación de
+>> ser uno de los primeros en ver
+
+"
+AZC1,AZC1_3,['AZC1_4'],no tienen ni reciben nunca (de) estas ventajas,de,"AZC1_4 - de
+>> De nuevo , la
+>> por el parque de la Ciutadella a
+>> ojos se abrieron de par en par
+>> un día después de la peripecia ,
+>> Fue un golpe de suerte , casi
+>> la idea original de esta escena era
+>> en el resto de la película ""
+>> Prometedoras palabras de la experimentada realizadora
+>> La nueva creación de Hernández se estrenará
+>> quieres ser uno de los primeros en
+
+",,
+AZC1,AZC1_3,['AZC1_4'],la oportunidad de ser [lo] que queremos ser,,,lo,"AZC1_4 - lo
+>> Cómo un accidente se convirtió en un
+>> jóvenes en bicicleta se cayó de repente
+>> todos los ojos se abrieron de par
+>> , que ya se había retrasado ,
+>> tarde , por lo que el ""
+>> Se lo toma con
+>> compromiso está en ello con toda su
+>> Eso es exactamente lo que necesita un
+>> creación de Hernández se estrenará el 10
+
+"
+AZC1,AZC1_3,['AZC1_4'],¿estaríamos (dónde) [donde] estamos hoy sin la globalización?,dónde,,donde,
+AZC1,AZC1_3,['AZC1_4'],¿podemos estar seguros [de] que…?,,,de,"AZC1_4 - de
+>> De nuevo , la
+>> por el parque de la Ciutadella a
+>> ojos se abrieron de par en par
+>> un día después de la peripecia ,
+>> Fue un golpe de suerte , casi
+>> la idea original de esta escena era
+>> en el resto de la película ""
+>> Prometedoras palabras de la experimentada realizadora
+>> La nueva creación de Hernández se estrenará
+>> quieres ser uno de los primeros en
+
+"
+AZC1,AZC1_3,['AZC1_4'],¿podemos estar seguros de que (cómo) [la forma en que] el mundo lo hace es (correcto) [correcta]…?,"cómo, correcto","AZC1_4 - cómo
+>> Cómo un accidente se
+>> el suceso relataron cómo un artista que
+
+","la forma en que, correcta",
+AZC1,AZC1_3,['AZC1_4'],la economía de los (paises) [países],paises,,países,
+AZC1,AZC1_3,['AZC1_4'],resulta en aspectos positivos (por) [para] algunos países,por,"AZC1_4 - por
+>> paseaban el sábado por el parque de
+>> la caída cambió por completo el rumbo
+>> ciclista fuera atropellado por un coche ,
+>> Por suerte , el
+>> un gran futuro por delante "" ,
+
+",para,"AZC1_4 - para
+>> puedes reservar entradas para la publicación en
+
+"
+AZC1,AZC1_3,['AZC1_4'],para algunos (paises) [países] y su posición en el mundo,paises,,países,
+AZC1,AZC1_3,['AZC1_4'],nos da (oportunidades) [la oportunidad] de ser,oportunidades,,la oportunidad,
+AZC1,AZC1_3,['AZC1_4'],[estar] donde queremos estar,,,estar,"AZC1_4 - estar
+>> de cine madrileña estuvo rodando en Barcelona
+>> Todo el equipo estaba ya estresado cuando
+>> El protagonista estaba dañado , ¿
+>> muestre tal compromiso está en ello con
+
+"
+AZC1,AZC1_3,['AZC1_4'],y vivir (cómo) [como] queremos,cómo,"AZC1_4 - cómo
+>> Cómo un accidente se
+>> el suceso relataron cómo un artista que
+
+",como,"AZC1_4 - como
+>> papel tan bien como este , ni
+
+"
+AZC1,AZC1_3,['AZC1_4'],"lamentablemente, no todo el mundo puede (profitar) [sacar provecho] de estas oportunidades",profitar,,sacar provecho,
+AZC1,AZC1_3,['AZC1_4'],y que [no] tienen (o) [ni] reciben nunca estas ventajas,o,"AZC1_4 - o
+>> O eso pensaban .
+
+","no, ni","AZC1_4 - ni
+>> como este , ni siquiera tuve que
+
+"
+AZC1,AZC1_3,['AZC1_4'],los (paises) [países] industriales roban a los otros países,paises,,países,
+AZC1,AZC1_3,['AZC1_4'],en lugares como (Africa) [África],Africa,,África,
+AZC1,AZC1_3,['AZC1_4'],necesitan cooperar con (esta gran) [estas grandes] economías,esta gran,,estas grandes,
+AZC1,AZC1_3,['AZC1_4'],solo recibe los aspectos negativos de (eso) [ese] proceso,eso,"AZC1_4 - eso
+>> O eso pensaban .
+>> Eso es exactamente lo
+
+",ese,"AZC1_4 - ese
+>> O eso pensaban .
+>> Eso es exactamente lo
+
+"
+AZC1,AZC1_3,['AZC1_4'],todos los resultados (positivas) [positivos],positivas,,positivos,
+AZC1,AZC1_3,['AZC1_4'],no es ni buena ni (mal) [mala],mal,,mala,
+AZC1,AZC1_3,['AZC1_4'],el mundo necesita (que venir junto) [unirse],que venir junto,,unirse,
+AZC1,AZC1_3,['AZC1_4'],y (lucha) [luchar] contra las circunstancias malas,lucha,,luchar,
+AZC1,AZC1_3,['AZC1_4'],las (circumstancias) [circunstancias] malas,circumstancias,,circunstancias,
+AZC1,AZC1_3,['AZC1_4'],es también la tarea de todos (los actores) crear un mundo mejor,los actores,,,
+AZC1,AZC1_4,,ya puedes reservar entradas para (la publicación) [el estreno] en nuestra página web,la publicación,,el estreno,
+AZC1,AZC1_4,,el pasado fin de (Semana) [semana],Semana,,semana,
+AZC1,AZC1_4,,un artista que debía (pasar) [adelantar] a un grupo de jóvenes en bicicleta,pasar,,adelantar,
+AZC1,AZC1_4,,"el protagonista estaba (dañado) [herido], ¿y ahora qué?",dañado,,herido,
+AZC1,AZC1_4,,pero el (mimo de doblaje) [doble] enfermó de coronavirus dos días antes del rodaje,mimo de doblaje,,doble,
+AZC1,AZC1_4,,pero el doble enfermó de (Corona) [coronavirus] dos días antes del rodaje,Corona,,coronavirus,
+AZC1,AZC1_4,,"por lo que el ""Pablo Sánchez herido"" pudo (iniciarse) [ver la luz en pantalla] perfectamente gracias a",iniciarse,,ver la luz en pantalla,

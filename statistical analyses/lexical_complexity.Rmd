@@ -1,0 +1,240 @@
+---
+title: "Composition analysis: lexical complexity"
+author: "Author 1"
+date: "2023-10-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+Hello, reader! Thank you for your interest in this work.
+
+Let me guide you through the steps taken to conduct the statistical analyses reported on our paper.
+
+## Preparation
+
+**Loading libraries**
+
+Here are the libraries that we are going to employ. If you have not already, remember to install them via `install.packages()` first.:
+
+```{r load libraries, message=FALSE}
+library(tidyverse)
+library(areaplot)
+library(ggthemes)
+library(RColorBrewer)
+library(gridExtra)
+library(reshape2)
+library(cowplot)
+
+```
+
+**Loading data sets**
+
+Next, we are going to load the data sets obtained after computing the measures needed for our model with Python.
+
+```{r load files, message=FALSE}
+# ==== COMPOSITION ANALYSIS ====
+stats_per_doc <- read_csv('Data/docs_analysis.csv')
+```
+
+**Cleaning data set**
+
+```{r clean data sets, message=FALSE}
+# Rename columns
+stats_per_doc <- stats_per_doc %>%
+  rename(ParticipantID = `participant_ID`,
+         TextID = `text_ID`,
+         TextFile = `Text file`,
+         CountA1 = `Count A1`,
+         CountA2 = `Count A2`,
+         CountB1 = `Count B1`,
+         CountB2 = `Count B2`,
+         CountC1 = `Count C1`,
+         CountC2 = `Count C2`,
+         FreqA1 = `Freq A1`,
+         FreqA2 = `Freq A2`,
+         FreqB1 = `Freq B1`,
+         FreqB2 = `Freq B2`,
+         FreqC1 = `Freq C1`,
+         FreqC2 = `Freq C2`,
+         TfidfA1 = `TFIDF A1`,
+         TfidfA2 = `TFIDF A2`,
+         TfidfB1 = `TFIDF B1`,
+         TfidfB2 = `TFIDF B2`,
+         TfidfC1 = `TFIDF C1`,
+         TfidfC2 = `TFIDF C2`,
+         Density = `Lexical density`)
+
+# Add a column with the composition number to better operate with the information
+text_num <- rep(1:4, times = 21)
+stats_per_doc$TextNum <- text_num
+stats_per_doc$ParticipantID <- as.factor(stats_per_doc$ParticipantID)
+stats_per_doc <- stats_per_doc %>%
+  select(ParticipantID, TextID, TextNum, everything())
+```
+
+**Data visualization**
+
+```{r data visualization, fig.width = 12, fig.height = 6, message=FALSE}
+
+custom_palette <- c("#fff1e6", "#ffd7ba", "#eccaff", 
+                    "#bdb2ff", "#ccd5ae", "#acd8aa",
+                    "#fad2e1", "#c8c7d6", "#fcf6bd",
+                    "#bee1e6", "#e2a0ff", "#d4a373",
+                    "#d5bdaf", "#ffd972", "#faa381",
+                    "#d17b88", "#fface4", "#b9fbc0",
+                    "#75dbcd", "#a2d2ff", "#809bce")
+
+
+# ==== Vocabulary Sophistication Stacked Bar Chart ====
+
+stats_1 <- stats_per_doc %>%
+  filter(TextNum == 1)
+stats_2 <- stats_per_doc %>%
+  filter(TextNum == 2)
+stats_3 <- stats_per_doc %>%
+  filter(TextNum == 3)
+stats_4 <- stats_per_doc %>%
+  filter(TextNum == 4)
+
+mean_FreqA1_1 <- mean(stats_1$FreqA1)
+mean_FreqA1_2 <- mean(stats_2$FreqA1)
+mean_FreqA1_3 <- mean(stats_3$FreqA1)
+mean_FreqA1_4 <- mean(stats_4$FreqA1)
+mean_FreqA2_1 <- mean(stats_1$FreqA2)
+mean_FreqA2_2 <- mean(stats_2$FreqA2)
+mean_FreqA2_3 <- mean(stats_3$FreqA2)
+mean_FreqA2_4 <- mean(stats_4$FreqA2)
+mean_FreqB1_1 <- mean(stats_1$FreqB1)
+mean_FreqB1_2 <- mean(stats_2$FreqB1)
+mean_FreqB1_3 <- mean(stats_3$FreqB1)
+mean_FreqB1_4 <- mean(stats_4$FreqB1)
+mean_FreqB2_1 <- mean(stats_1$FreqB2)
+mean_FreqB2_2 <- mean(stats_2$FreqB2)
+mean_FreqB2_3 <- mean(stats_3$FreqB2)
+mean_FreqB2_4 <- mean(stats_4$FreqB2)
+mean_FreqC1_1 <- mean(stats_1$FreqC1)
+mean_FreqC1_2 <- mean(stats_2$FreqC1)
+mean_FreqC1_3 <- mean(stats_3$FreqC1)
+mean_FreqC1_4 <- mean(stats_4$FreqC1)
+mean_FreqC2_1 <- mean(stats_1$FreqC2)
+mean_FreqC2_2 <- mean(stats_2$FreqC2)
+mean_FreqC2_3 <- mean(stats_3$FreqC2)
+mean_FreqC2_4 <- mean(stats_4$FreqC2)
+
+rel_freq <- data.frame(
+  TextNum = rep(1:4, each = 6),
+  VocabLevel = rep(c("A1", "A2", "B1", "B2", "C1", "C2"), times = 4),
+  Freq = c(mean_FreqA1_1, mean_FreqA2_1, mean_FreqB1_1,
+           mean_FreqB2_1, mean_FreqC1_1, mean_FreqC2_1,
+           mean_FreqA1_2, mean_FreqA2_2, mean_FreqB1_2,
+           mean_FreqB2_2, mean_FreqC1_2, mean_FreqC2_2,
+           mean_FreqA1_3, mean_FreqA2_3, mean_FreqB1_3,
+           mean_FreqB2_3, mean_FreqC1_3, mean_FreqC2_3,
+           mean_FreqA1_4, mean_FreqA2_4, mean_FreqB1_4,
+           mean_FreqB2_4, mean_FreqC1_4, mean_FreqC2_4)
+)
+
+orderedLevels <- c("C2", "C1", "B2", "B1", "A2", "A1")
+
+PlotFreq <- ggplot(rel_freq,
+  aes(x = TextNum,
+      y = Freq,
+      fill = factor(VocabLevel, levels = orderedLevels))) +
+  geom_bar(stat = "identity",
+           position = "fill",
+           color = "black",
+           linewidth = 0.25) +
+  geom_text(
+    aes(label = round(Freq, 4)),
+    size = 2,
+    position = position_fill(vjust = 0.5)) +
+  labs(title = "Lexical sophistication over time",
+       x = "Writing task",
+       y = "Mean relative frequency") +
+  scale_fill_manual(values = rev(brewer.pal(6, "Pastel2"))) +
+  guides(fill = guide_legend(
+    title = "Vocabulary level",
+    label.position = "right",
+    title.theme = element_text(size = 10),
+    label.theme = element_text(size = 7))) +
+  theme(axis.text.y = element_blank(),
+        axis.title.y = element_text(size = 7),
+        axis.text.x = element_text(size = 6),
+        axis.title.x = element_text(size = 7),
+        plot.title = element_text(size = 12),
+        legend.position = "bottom")
+
+# ==== Measure of Textual Lexical Diversity (MTLD) Stacked Area Chart ====
+
+PlotMTLD <- ggplot(stats_per_doc,
+                    aes(x = TextNum, y = mtld,
+                        fill = ParticipantID)) +
+  geom_area(colour = "black", linewidth = 0.25) +
+  labs(title = "Lexical diversity over time",
+       x = "Writing task\n",
+       y = "MTLD") +
+  scale_fill_manual(values = custom_palette) +
+  guides(fill = guide_legend(
+    title = "Participant",
+    label.position = "right",
+    title.theme = element_text(size = 10),
+    label.theme = element_text(size = 7))) +
+  theme(axis.text.y = element_blank(),
+        axis.title.y = element_text(size = 7),
+        axis.text.x = element_text(size = 6),
+        axis.title.x = element_text(size = 7),
+        plot.title = element_text(size = 12),
+        legend.position = "bottom")
+
+# ==== Measure of Lexical Density Heatmap ====
+stats_per_doc$ParticipantID <- factor(stats_per_doc$ParticipantID, levels = rev(sort(unique(stats_per_doc$ParticipantID))))
+
+df_wide <- dcast(stats_per_doc, ParticipantID ~ TextNum, value.var = "Density")
+
+PlotDensity <- ggplot(melt(df_wide),
+                    aes(x = variable, y = ParticipantID,
+                        fill = value)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "#e2a0ff") +
+  theme(axis.text.y = element_text(size = 6),
+        axis.title.y = element_text(size = 7),
+        axis.text.x = element_text(size = 6),
+        axis.title.x = element_text(size = 7),
+        plot.title = element_text(size = 12),
+        legend.position = "bottom",
+        legend.text = element_text(size = 7),
+        legend.title = element_text(size = 10)) +
+  labs(title = "Lexical density over time", x = "Writing task", y = "Participant", fill = "Lexical density")
+
+# Extract legends to add them later
+
+get_legend <- function(plot) {
+  tmp <- ggplotGrob(plot)
+  legend <- gtable::gtable_filter(tmp, "guide-box")
+  return(legend)
+}
+
+legendFreq <- get_legend(PlotFreq)
+legendMTLD <- get_legend(PlotMTLD)
+legendDensity <- get_legend(PlotDensity)
+
+PlotFreq <- PlotFreq + theme(legend.position = "none",
+                             panel.background = element_rect(fill = "white", color = NA),
+                               panel.grid.major = element_line(color = "grey80", size = 0.5, linetype = "dashed"))
+PlotMTLD <- PlotMTLD + theme(legend.position = "none",
+                             panel.background = element_rect(fill = "white", color = NA),
+                               panel.grid.major = element_line(color = "grey80", size = 0.3, linetype = "dashed"))
+PlotDensity <- PlotDensity + theme(legend.position = "none",
+                                   panel.background = element_rect(fill = "white", color = NA))
+
+# Arrange each plot with its respective legend using grid.arrange
+PlotFreq_with_legend <- arrangeGrob(PlotFreq, legendFreq, ncol = 1, heights = c(4, 1))
+PlotMTLD_with_legend <- arrangeGrob(PlotMTLD, legendMTLD, ncol = 1, heights = c(4, 1))
+PlotDensity_with_legend <- arrangeGrob(PlotDensity, legendDensity, ncol = 1, heights = c(4, 1))
+
+# Arrange the three combined plots in a row
+final_plot <- grid.arrange(PlotFreq_with_legend, PlotMTLD_with_legend, PlotDensity_with_legend, ncol = 3)

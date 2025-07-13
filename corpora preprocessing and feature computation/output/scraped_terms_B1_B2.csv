@@ -1,0 +1,5155 @@
+Lexical item,Level
+músculo,B1
+hueso,B1
+piel,B1
+corazón,B1
+pulmón,B1
+cuello,B1
+hombros,B1
+pecho,B1
+cintura,B1
+barriga,B1
+rodilla,B1
+tobillo,B1
+codo,B1
+muñeca,B1
+postura,B1
+mirada,B1
+parecerse a su padre,B1
+parecerse a su hermano,B1
+parecerse entre ellos,B1
+tener la piel clara,B1
+tener la piel oscura,B1
+tener la piel sensible,B1
+tener la piel suave,B1
+estar moreno,B1
+ser blanco,B1
+ser moreno,B1
+ser blanco de piel,B1
+ser moreno de piel,B1
+tener buen tipo,B1
+tener buen figura,B1
+tener buen estilo,B1
+tener buen presencia,B1
+tener mal tipo,B1
+tener mal figura,B1
+tener mal estilo,B1
+tener mal presencia,B1
+caminar,B1
+dar un paseo,B1
+saltar,B1
+estar sentado,B1
+estar de pie,B1
+respirar,B1
+llorar,B1
+oler,B1
+tocar,B1
+besar,B1
+abrazar,B1
+levantar las manos,B1
+levantar los brazos,B1
+levantar la cabeza,B1
+bajar las manos,B1
+bajar los brazos,B1
+bajar la cabeza,B1
+mover las manos,B1
+mover los brazos,B1
+mover la cabeza,B1
+soltar,B1
+vida,B1
+muerte,B1
+estar embarazada,B1
+esperar un hijo,B1
+ser virgen,B1
+hacer el amor,B1
+tener relaciones sexuales,B1
+tomar la píldora,B1
+usar preservativos,B1
+tener la regla,B1
+optimismo,B1
+pesimismo,B1
+tranquilidad,B1
+intranquilidad,B1
+paciencia,B1
+impaciencia,B1
+sincero,B1
+paciente,B1
+impaciente,B1
+introvertido,B1
+vago,B1
+travieso,B1
+seguro,B1
+inseguro,B1
+conservador,B1
+hablador,B1
+arrogante,B1
+tener sentido del humor,B1
+tener mucho carácter,B1
+tener poco carácter,B1
+tener mal carácter,B1
+tener un carácter fuerte,B1
+tener un carácter débil,B1
+tener un carácter fácil,B1
+tener un carácter difícil,B1
+ser de carácter fuerte,B1
+ser de carácter débil,B1
+ser de carácter fácil,B1
+ser de carácter difícil,B1
+sentimiento,B1
+amor,B1
+amistad,B1
+estar aburrido,B1
+estar asustado,B1
+estar estresado,B1
+estar deprimido,B1
+estar enamorado,B1
+alegrarse,B1
+divertirse,B1
+enamorarse,B1
+aburrirse,B1
+deprimirse,B1
+enfadarse,B1
+dar pena,B1
+dar lástima,B1
+dar miedo,B1
+ponerse triste,B1
+ponerse contento,B1
+ponerse de mal humor,B1
+encontrarse bien,B1
+encontrarse mal,B1
+encontrarse fatal,B1
+no soportar,B1
+tocar calor,B1
+tocar frío,B1
+tocar sueño,B1
+tocar sed,B1
+tocar hambre,B1
+sentir calor,B1
+sentir frío,B1
+sentir sueño,B1
+sentir sed,B1
+sentir hambre,B1
+estar bien,B1
+estar mal,B1
+estar regular,B1
+sentirse bien,B1
+sentirse mal,B1
+sentirse regular,B1
+encontrarse bien,B1
+encontrarse mal,B1
+encontrarse regular,B1
+cansarse,B1
+portarse bien,B1
+portarse mal,B1
+ser educado,B1
+ser maleducado,B1
+sincero,B1
+conservador,B1
+tener suerte,B1
+tener buena suerte,B1
+tener mala suerte,B1
+vivir en las afueras,B1
+vivir en el centro,B1
+cambiar de dirección,B1
+recién nacido,B1
+anciano,B1
+varón,B1
+hembra,B1
+masculino,B1
+femenino,B1
+heterosexual,B1
+homosexual,B1
+bisexual,B1
+transexual,B1
+gay,B1
+lesbiana,B1
+boda civil,B1
+boda religiosa,B1
+divorcio,B1
+separación,B1
+matrimonio homosexual,B1
+matrimonio heterosexual,B1
+pareja de hecho,B1
+burocracia,B1
+funcionario,B1
+Documento Nacional de Identidad,B1
+Documento Nacional de Identidad DNI,B1
+tener un documento,B1
+solicitar un documento,B1
+renovar un documento,B1
+perder un documento,B1
+diario,B1
+álbum de fotos,B1
+joya,B1
+anillo,B1
+collar,B1
+pendientes,B1
+pulsera,B1
+matrimonio homosexual,B1
+matrimonio heterosexual,B1
+pareja de hecho,B1
+madre soltera,B1
+niño adoptado,B1
+adoptar un niño,B1
+educar a un hijo,B1
+convivir con la pareja,B1
+convivir con el novio,B1
+vivir con la pareja,B1
+vivir con el novio,B1
+llevar [número cardinal] años juntos,B1
+llevar [número cardinal] años en pareja,B1
+llevar [número cardinal] años viviendo juntos,B1
+llevar [número cardinal] años viviendo en pareja,B1
+llevar [número cardinal] años conviviendo juntos,B1
+llevar [número cardinal] años conviviendo en pareja,B1
+obedecer a los padres,B1
+desobedecer a los padres,B1
+discutir con los padres,B1
+discutir con los hermanos,B1
+discutir con los hijos,B1
+crecer feliz,B1
+crecer fuerte,B1
+crecer sano,B1
+colega,B1
+amigo de la infancia,B1
+amigo de la universidad,B1
+buen amigo,B1
+gran amigo,B1
+tener novio,B1
+tener pareja,B1
+tener una aventura,B1
+tener una relación,B1
+tener una relación de amistad,B1
+tener una relación de amor,B1
+tener una relación de trabajo,B1
+empezar una relación,B1
+acabar una relación,B1
+terminar una relación,B1
+salir con alguien,B1
+romper con alguien,B1
+caer bien,B1
+caer mal,B1
+caerse bien,B1
+caerse mal,B1
+llevarse bien,B1
+llevarse mal,B1
+dar la mano,B1
+dar un abrazo,B1
+dar un beso,B1
+abrazarse,B1
+besarse,B1
+ligar,B1
+fiesta típica,B1
+fiesta popular,B1
+fiesta tradicional,B1
+fiesta de disfraces,B1
+comida de Navidad,B1
+comida de familia,B1
+comida de negocios,B1
+fiesta formal,B1
+reunión formal,B1
+fiesta informal,B1
+reunión informal,B1
+despedida de soltero,B1
+boda,B1
+cumplir años,B1
+hacer una despedida de soltero,B1
+hacer una fiesta de fin de curso,B1
+dar una despedida de soltero,B1
+dar una fiesta de fin de curso,B1
+invitar a una despedida de soltero,B1
+invitar a una fiesta de fin de curso,B1
+irse de viaje de novios,B1
+irse de luna de miel,B1
+estar de viaje de novios,B1
+estar de luna de miel,B1
+felicitar,B1
+hacer un regalo,B1
+envolver un regalo,B1
+abrir un regalo,B1
+actitud agradable,B1
+actitud positiva,B1
+actitud extraña,B1
+portarse bien,B1
+portarse mal,B1
+tratar bien a alguien,B1
+tratar mal a alguien,B1
+tener una buena actitud,B1
+tener una mala actitud,B1
+alimentación sana,B1
+alimentación equilibrada,B1
+producto natural,B1
+producto para diabéticos,B1
+alimento pesado,B1
+alimento ligero,B1
+comida pesado,B1
+comida ligero,B1
+calorías,B1
+vitaminas,B1
+proteínas,B1
+fibra,B1
+hierro,B1
+alimentar,B1
+alimentarse,B1
+infusión de tila,B1
+infusión de manzanilla,B1
+infusión de poleo,B1
+vino joven,B1
+vino de la casa,B1
+un reserva,B1
+abrir una botella,B1
+servir una bebida,B1
+probar una bebida,B1
+tomar una copa,B1
+estar borracho,B1
+tener resaca,B1
+marisco,B1
+especias,B1
+embutido,B1
+lomo,B1
+salchichón,B1
+chorizo,B1
+berenjena,B1
+calabacín,B1
+espinacas,B1
+guisantes,B1
+lentejas,B1
+judías,B1
+judías blancas,B1
+garbanzos,B1
+bizcocho,B1
+magdalena,B1
+cereza,B1
+piña,B1
+kiwi,B1
+leche entera,B1
+leche descremada,B1
+leche desnatada,B1
+nata,B1
+margarina,B1
+yogur natural,B1
+yogur desnatado,B1
+yogur con frutas,B1
+costilla de cordero,B1
+chuleta de cerdo,B1
+pechuga de pollo,B1
+solomillo de ternera,B1
+aceite de oliva,B1
+aceite de girasol,B1
+vinagre,B1
+mostaza,B1
+clara de huevo,B1
+yema de huevo,B1
+cáscara de huevo,B1
+receta,B1
+ingredientes,B1
+modo de preparación,B1
+carne a la plancha,B1
+carne frito,B1
+carne hervido,B1
+pescado a la plancha,B1
+pescado frito,B1
+pescado hervido,B1
+blando,B1
+duro,B1
+crudo,B1
+poco hecho,B1
+muy hecho,B1
+salado,B1
+dulce,B1
+picante,B1
+amargo,B1
+freír,B1
+hervir,B1
+cocer,B1
+asar,B1
+aliñar,B1
+condimentar,B1
+cocer arroz,B1
+cocer pasta,B1
+hervir agua,B1
+hervir leche,B1
+batir huevos,B1
+freír patatas,B1
+freír huevos,B1
+pelar fruta,B1
+pelar patatas,B1
+cortar el pan,B1
+cortar la carne,B1
+aliñar una ensalada,B1
+quemarse la comida,B1
+sopa de pescado,B1
+sopa de verduras,B1
+gazpacho,B1
+cocido,B1
+croquetas,B1
+sabor bueno,B1
+sabor agradable,B1
+dulce,B1
+salado,B1
+amargo,B1
+soso,B1
+picante,B1
+sentar bien,B1
+sentar mal,B1
+cuchara,B1
+tenedor,B1
+cuchillo,B1
+sartén,B1
+cazo,B1
+mantel,B1
+copa de vino,B1
+copa de champán,B1
+taza de café,B1
+taza de té,B1
+taza de desayuno,B1
+vaso de agua,B1
+jarra de agua,B1
+jarra de cerveza,B1
+recoger la cocina,B1
+recoger la mesa,B1
+poner los platos,B1
+poner la mesa,B1
+recoger los platos,B1
+recoger la mesa,B1
+quitar los platos,B1
+quitar la mesa,B1
+fregar los platos,B1
+poner el lavavajillas,B1
+poner el lavaplatos,B1
+restaurante sencillo,B1
+restaurante de lujo,B1
+comida casera,B1
+comida tradicional,B1
+cocina india,B1
+cocina andaluza,B1
+cocina internacional,B1
+tomar nota,B1
+traer el primer plato,B1
+traer el segundo plato,B1
+llevarse el primer plato,B1
+llevarse el segundo plato,B1
+servir el primer plato,B1
+servir el segundo plato,B1
+tomar un aperitivo,B1
+tomar una ración,B1
+ir de tapas,B1
+para tomar,B1
+para llevar,B1
+para tomar aquí,B1
+para llevar,B1
+campus,B1
+secretaría,B1
+administración,B1
+centro de recursos,B1
+aula multimedia,B1
+colegio público,B1
+colegio privado,B1
+colegio concertado,B1
+guardería,B1
+jardín de infancia,B1
+asignatura teórica,B1
+asignatura práctica,B1
+clase teórica,B1
+clase práctica,B1
+matrícula,B1
+beca,B1
+conferencia,B1
+matricularse,B1
+devolver la matrícula,B1
+pedir una beca,B1
+dar una beca,B1
+ganar una beca,B1
+hacer un intercambio,B1
+hacer unas prácticas,B1
+saber de memoria,B1
+aprender de memoria,B1
+estudiar de memoria,B1
+pensar,B1
+recordar,B1
+olvidar,B1
+enseñar,B1
+test,B1
+control,B1
+notas,B1
+hacer un examen oral,B1
+hacer un test escrito,B1
+hacer un control,B1
+tener un examen oral,B1
+tener un test escrito,B1
+tener un control,B1
+aprobar un examen oral,B1
+aprobar un test escrito,B1
+aprobar un control,B1
+suspender un examen oral,B1
+suspender un test escrito,B1
+suspender un control,B1
+corregir un examen,B1
+tener un [número cardinal],B1
+tener buena nota,B1
+tener mala nota,B1
+aprobar el curso,B1
+repetir el curso,B1
+bachillerato,B1
+carrera,B1
+máster,B1
+doctorado,B1
+licenciado,B1
+doctor,B1
+estudiar el bachillerato,B1
+estudiar una carrera,B1
+estudiar un máster,B1
+estudiar un doctorado,B1
+hacer el bachillerato,B1
+hacer una carrera,B1
+hacer un máster,B1
+hacer un doctorado,B1
+tener el bachillerato,B1
+tener una carrera,B1
+tener un máster,B1
+tener un doctorado,B1
+empezar el bachillerato,B1
+empezar una carrera,B1
+empezar un máster,B1
+empezar un doctorado,B1
+acabar el bachillerato,B1
+acabar una carrera,B1
+acabar un máster,B1
+acabar un doctorado,B1
+terminar el bachillerato,B1
+terminar una carrera,B1
+terminar un máster,B1
+terminar un doctorado,B1
+tener estudios,B1
+no tener estudios,B1
+tener una duda,B1
+equivocarse,B1
+hacer una actividad en parejas,B1
+hacer una actividad en grupos,B1
+hacer una actividad de forma individual,B1
+hacer un esquema,B1
+hacer un resumen,B1
+buscar en un libro,B1
+buscar en un diccionario,B1
+mirar en un libro,B1
+mirar en un diccionario,B1
+tomar notas,B1
+tomar apuntes,B1
+subrayar un libro,B1
+escoger un tema,B1
+escoger un compañero,B1
+escoger un libro,B1
+elegir un tema,B1
+elegir un compañero,B1
+elegir un libro,B1
+cambiar de libro,B1
+cambiar de tema,B1
+cambiar de compañero,B1
+levantar la mano,B1
+levantarse,B1
+cambiar de sitio,B1
+cambiarse de sitio,B1
+salir voluntario,B1
+salir a la pizarra,B1
+explicar un tema,B1
+explicar una lección,B1
+hablar sobre un tema,B1
+charlar sobre un tema,B1
+relacionar,B1
+comparar,B1
+buscar diferencias,B1
+corregir una redacción,B1
+corregir un ejercicio,B1
+corregir los deberes,B1
+hacer un descanso,B1
+hacer una pausa,B1
+enciclopedia,B1
+apuntes,B1
+folio,B1
+papel reciclado,B1
+papel de impresora,B1
+carpeta,B1
+tinta para impresora,B1
+tinta de impresora,B1
+director de RR. HH.,B1
+empleado de banca,B1
+responsable de ventas,B1
+oficio,B1
+profesión liberal,B1
+sustituto,B1
+ayudante,B1
+estudiante en prácticas,B1
+trabajar para una empresa de transportes,B1
+trabajar para una empresa de servicios,B1
+estar de auxiliar,B1
+estar de canguro,B1
+departamento de recursos humanos,B1
+departamento de contabilidad,B1
+departamento de administración,B1
+bufete,B1
+laboratorio,B1
+casco,B1
+botas,B1
+oficio,B1
+profesión liberal,B1
+hacer una presentación,B1
+hacer un informe,B1
+hacer un presupuesto,B1
+hacer un proyecto,B1
+hacer un pedido,B1
+clasificar documentos,B1
+archivar documentos,B1
+atender clientes,B1
+atender usuarios,B1
+meter datos en el ordenador,B1
+introducir datos en el ordenador,B1
+oferta,B1
+demanda,B1
+anuncio de trabajo,B1
+entrevistado,B1
+entrevistador,B1
+tener formación,B1
+tener experiencia,B1
+buscar trabajo,B1
+escribir una carta de presentación,B1
+enviar una carta de presentación,B1
+hacer el currículum vítae,B1
+presentar el currículum vítae,B1
+hacer una entrevista,B1
+realizar una entrevista,B1
+hacer una entrevista de trabajo,B1
+realizar una entrevista de trabajo,B1
+firmar un contrato,B1
+despedir,B1
+contrato,B1
+sueldo,B1
+disponibilidad,B1
+total disponibilidad,B1
+estabilidad laboral,B1
+horario flexible,B1
+incorporación inmediata,B1
+formación a cargo de la empresa,B1
+posibilidad de promoción,B1
+sindicato,B1
+tener un sueldo,B1
+ganar un sueldo,B1
+subir el sueldo,B1
+bajar el sueldo,B1
+estar de vacaciones,B1
+hacer huelga,B1
+jubilarse,B1
+vago,B1
+descanso,B1
+vacación,B1
+cocina,B1
+jardinería,B1
+bricolaje,B1
+ir de camping,B1
+hacer un picnic,B1
+hacer turismo,B1
+inscribirse en un club,B1
+inscribirse en una asociación,B1
+inscribirse en un grupo,B1
+colaborar como voluntario,B1
+tener tiempo libre,B1
+estar ocupado,B1
+estar libre,B1
+tener un compromiso,B1
+ir de copas,B1
+ir de tapas,B1
+ir de marcha,B1
+salir de copas,B1
+salir de tapas,B1
+salir de marcha,B1
+aburrirse,B1
+pasarlo bien,B1
+pasarlo mal,B1
+pasarselo bien,B1
+pasarselo mal,B1
+divertirse,B1
+hacer un curso de jardinería,B1
+hacer un curso de cocina,B1
+ser aficionado a,B1
+hacer crucigramas,B1
+coleccionar sellos,B1
+coleccionar monedas,B1
+asiento de un cine,B1
+asiento de un teatro,B1
+fila de un cine,B1
+fila de un teatro,B1
+espectador,B1
+público,B1
+escenario,B1
+galería,B1
+galería de arte,B1
+plaza de toros,B1
+poner una película,B1
+hacer cola,B1
+ser un éxito,B1
+árbitro,B1
+entrenador,B1
+deportista,B1
+jugador,B1
+perdedor,B1
+ganador,B1
+balón de fútbol,B1
+balón de baloncesto,B1
+pelota de tenis,B1
+pelota de golf,B1
+raqueta,B1
+esquíes,B1
+partido de fútbol,B1
+partido de baloncesto,B1
+equipo de fútbol,B1
+equipo de baloncesto,B1
+carrera ciclista,B1
+carrera de motos,B1
+carrera de coches,B1
+guantes de boxeo,B1
+chándal,B1
+zapatos deportivos,B1
+ganar,B1
+perder,B1
+empatar,B1
+jugar al balonmano,B1
+jugar al voleibol,B1
+jugar al béisbol,B1
+hacer atletismo,B1
+hacer ciclismo,B1
+hacer natación,B1
+campo de fútbol,B1
+pista de tenis,B1
+ficha,B1
+dado,B1
+tablero,B1
+casilla,B1
+concurso,B1
+videojuego,B1
+consola,B1
+juego de mesa,B1
+juego de cartas,B1
+jugador,B1
+ganar,B1
+perder,B1
+empatar,B1
+jugar a los bolos,B1
+jugar a los dardos,B1
+jugar al billar,B1
+jugar con los juguetes,B1
+jugar con la pelota,B1
+tocar un premio,B1
+tocar el Gordo,B1
+tocar la lotería,B1
+medios de comunicación,B1
+medios de información,B1
+noticia,B1
+comentario,B1
+opinión,B1
+informar,B1
+dar información,B1
+tener información,B1
+dar una noticia,B1
+estar bien informado,B1
+estar mal informado,B1
+mantenerse bien informado,B1
+mantenerse mal informado,B1
+dejar un recado,B1
+dejar un mensaje,B1
+comunicarse con alguien por carta,B1
+comunicarse con alguien por correo,B1
+comunicarse con alguien por teléfono,B1
+comunicarse con alguien por correo,B1
+comunicarse con alguien por carta,B1
+comunicarse con alguien por correo electrónico,B1
+comunicarse con alguien por teléfono,B1
+comunicarse con alguien por correo,B1
+cortar la comunicación,B1
+cortarse la comunicación,B1
+buzón,B1
+remitente,B1
+destinatario,B1
+apartado de correos,B1
+posdata,B1
+firma,B1
+saludo,B1
+despedida,B1
+carta formal,B1
+carta personal,B1
+cerrar un sobre,B1
+echar una carta,B1
+mandar por correo,B1
+abrir el buzón,B1
+contestador automático,B1
+buzón de voz,B1
+llamada,B1
+línea,B1
+línea ocupada,B1
+prefijo,B1
+extensión,B1
+batería de teléfono,B1
+tarjeta de teléfono,B1
+conversación telefónica,B1
+guía telefónica,B1
+páginas amarillas,B1
+marcar un número de teléfono,B1
+colgar el teléfono,B1
+coger el teléfono,B1
+contestar a el teléfono,B1
+ponerse a el teléfono,B1
+descolgar el teléfono,B1
+coger el teléfono,B1
+contestar a el teléfono,B1
+ponerse a el teléfono,B1
+quedarse sin batería,B1
+quedarse sin saldo,B1
+hacer una llamada,B1
+pasar una llamada,B1
+devolver una llamada,B1
+atender una llamada,B1
+recibir una llamada,B1
+desviar una llamada,B1
+estar comunicando,B1
+periodismo,B1
+prensa,B1
+editorial,B1
+cartelera,B1
+economía,B1
+cultura,B1
+deportes,B1
+sección de economía,B1
+sección de cultura,B1
+sección de deportes,B1
+agencia de prensa,B1
+agencia de fotografía,B1
+suplemento cultural,B1
+suplemento de economía,B1
+publicar una noticia,B1
+publicar un reportaje,B1
+publicar una entrevista,B1
+publicar un artículo,B1
+redactar una noticia,B1
+redactar un reportaje,B1
+redactar una entrevista,B1
+redactar un artículo,B1
+canal,B1
+emisora,B1
+locutor,B1
+cadena público,B1
+cadena privado,B1
+cadena regional,B1
+cadena nacional,B1
+canal público,B1
+canal privado,B1
+canal regional,B1
+canal nacional,B1
+capítulo,B1
+episodio,B1
+serie,B1
+culebrón,B1
+telenovela,B1
+concurso,B1
+debate,B1
+documental,B1
+telebasura,B1
+programa de información general,B1
+programa de información deportiva,B1
+película en versión original,B1
+película con subtítulos,B1
+cambiar de canal,B1
+cambiar de cadena,B1
+cambiar de emisora,B1
+consultar la programación,B1
+contraseña,B1
+nombre de usuario,B1
+navegador,B1
+buscador,B1
+ratón,B1
+programa,B1
+antivirus,B1
+línea ADSL,B1
+buscar información,B1
+buscar datos,B1
+buscar imágenes,B1
+buscar documentos,B1
+intercambiar información,B1
+intercambiar datos,B1
+intercambiar imágenes,B1
+intercambiar documentos,B1
+colgar una fotografía en Internet,B1
+colgar un documento en Internet,B1
+colgar un texto en Internet,B1
+consultar una página web,B1
+consultar una página de Internet,B1
+entrar en una página web,B1
+entrar en una página de Internet,B1
+acceder a una página web,B1
+acceder a una página de Internet,B1
+descargarse un programa,B1
+descargarse un archivo,B1
+descargarse música,B1
+bajarse un programa,B1
+bajarse un archivo,B1
+bajarse música,B1
+conectarse a Internet,B1
+tener conexión a Internet,B1
+abrir,B1
+abrirse una cuenta de correo electrónico,B1
+adjuntar un documento,B1
+reenviar un documento,B1
+poner una copia a alguien,B1
+enviar una copia a alguien,B1
+poner una copia oculta a alguien,B1
+enviar una copia oculta a alguien,B1
+construir una casa,B1
+construir un edificio,B1
+hacer una casa,B1
+hacer un edificio,B1
+casero,B1
+propietario,B1
+compra,B1
+alquiler,B1
+visitar un piso,B1
+ir a ver un piso,B1
+pagar el alquiler,B1
+pagar la hipoteca,B1
+pagar el piso,B1
+pagar la luz,B1
+pagar la comunidad,B1
+pagar el gas,B1
+pagar el agua,B1
+pagar el teléfono,B1
+pagar el recibo de la luz,B1
+pagar el recibo de la comunidad,B1
+pagar el recibo de el gas,B1
+pagar el recibo de el agua,B1
+pagar el recibo de el teléfono,B1
+empresa de mudanzas,B1
+camión de mudanzas,B1
+hacer una mudanza,B1
+hacer un traslado,B1
+irse a,B1
+irse a vivir a,B1
+bloque de pisos,B1
+edificio de apartamentos,B1
+portero,B1
+dueño,B1
+piso de segunda mano,B1
+piso luminoso,B1
+piso soleado,B1
+fregar el suelo,B1
+fregar los platos,B1
+barrer,B1
+hacer la cama,B1
+hacer la compra,B1
+pasar el aspirador,B1
+sacar la basura,B1
+planchar,B1
+tender la ropa,B1
+decoración,B1
+ambiente moderno,B1
+ambiente clásico,B1
+estilo moderno,B1
+estilo clásico,B1
+decorar,B1
+iluminar una habitación,B1
+iluminar un espacio,B1
+alfombra,B1
+cortina,B1
+florero,B1
+póster,B1
+espejo,B1
+cómoda,B1
+mesilla de noche,B1
+electrodoméstico,B1
+pequeño electrodoméstico,B1
+frigorífico,B1
+congelador,B1
+horno,B1
+cafetera,B1
+equipo de música,B1
+funcionar,B1
+estar roto,B1
+estropeado,B1
+encender un electrodoméstico,B1
+apagar un electrodoméstico,B1
+poner un electrodoméstico,B1
+quitar un electrodoméstico,B1
+conectar un electrodoméstico,B1
+programar un electrodoméstico,B1
+enchufar un electrodoméstico,B1
+encender un electrodoméstico,B1
+apagar un electrodoméstico,B1
+poner un electrodoméstico,B1
+quitar un electrodoméstico,B1
+conectar un electrodoméstico,B1
+programar un electrodoméstico,B1
+desenchufar un electrodoméstico,B1
+cartero,B1
+mensajero,B1
+empleado de correos,B1
+buzón,B1
+buzón de correos,B1
+cuenta,B1
+cheque,B1
+cheque de viaje,B1
+meter dinero de la cuenta,B1
+poner dinero de la cuenta,B1
+sacar dinero de la cuenta,B1
+abrir una cuenta,B1
+cerrar una cuenta,B1
+clínica,B1
+urgencias,B1
+seguro médico,B1
+ir de urgencias,B1
+estar en urgencias,B1
+vigilante,B1
+ladrón,B1
+asesino,B1
+robo,B1
+muerte,B1
+robar,B1
+matar,B1
+psicólogo,B1
+voluntario de ONG,B1
+servicios sociales,B1
+ayuda,B1
+colaboración,B1
+ayuda económica,B1
+cuidar,B1
+ayudar,B1
+colaborar como voluntario,B1
+recibir una ayuda,B1
+ofrecer una ayuda,B1
+atender a personas mayores,B1
+baños públicos,B1
+aseos públicos,B1
+W. C.,B1
+semáforo,B1
+salida de emergencia,B1
+escaleras mecánicas,B1
+aparcamiento,B1
+oferta,B1
+descuento,B1
+garantía,B1
+hacer una devolución,B1
+hacer un cambio,B1
+salir de rebajas,B1
+ir de rebajas,B1
+poner rebajas,B1
+haber rebajas,B1
+tener rebajas,B1
+tener un descuento,B1
+hacer un descuento,B1
+subir el precio,B1
+bajar el precio,B1
+estar de oferta,B1
+tener garantía,B1
+tener precios especiales,B1
+haber precios especiales,B1
+comprar por catálogo,B1
+comprar por Internet,B1
+vender por catálogo,B1
+vender por Internet,B1
+ropa interior,B1
+ropa de verano,B1
+ropa de invierno,B1
+ropa de deporte,B1
+zapatos planos,B1
+zapatos de tacón,B1
+zapatillas de deporte,B1
+vestido de fiesta,B1
+vestido de noche,B1
+vestido de novia,B1
+traje de fiesta,B1
+traje de noche,B1
+traje de novia,B1
+minifalda,B1
+falda corta,B1
+falda larga,B1
+lana,B1
+algodón,B1
+lino,B1
+liso,B1
+de rayas,B1
+de cuadros,B1
+quedar bien,B1
+quedar mal,B1
+quedar ancho,B1
+quedar estrecho,B1
+quedar grande,B1
+quedar pequeño,B1
+quedar largo,B1
+quedar corto,B1
+coser,B1
+carro,B1
+carrito,B1
+cesta,B1
+bolsa,B1
+carro de la compra,B1
+carrito de la compra,B1
+cesta de la compra,B1
+bolsa de la compra,B1
+congelados,B1
+lácteos,B1
+bebidas,B1
+sección de congelados,B1
+sección de lácteos,B1
+sección de bebidas,B1
+loncha de jamón,B1
+loncha de queso,B1
+trozo de tarta,B1
+trozo de pan,B1
+estar malo,B1
+estar caducado,B1
+tener de oferta,B1
+tener de promoción,B1
+estar de oferta,B1
+estar de promoción,B1
+cambio,B1
+vuelta,B1
+pagar intereses,B1
+cobrar intereses,B1
+pasar por caja,B1
+pasar por la caja,B1
+seguro médico,B1
+seguro de enfermedad,B1
+seguro público,B1
+seguro privado,B1
+tener diarrea,B1
+tener cáncer,B1
+tener sida,B1
+ponerse enfermo,B1
+ponerse malo,B1
+ponerse bien,B1
+tener buena salud,B1
+tener mala salud,B1
+cuidar a un enfermo,B1
+curar a un enfermo,B1
+hacer régimen,B1
+hacer un régimen,B1
+estar sano,B1
+estar de baja,B1
+quemadura,B1
+corte,B1
+herida,B1
+caer,B1
+caerse,B1
+dar un golpe,B1
+darse un golpe,B1
+quemar un dedo,B1
+quemar una mano,B1
+quemarse un dedo,B1
+quemarse una mano,B1
+cortarse un dedo,B1
+cortarse una mano,B1
+hacerse una herida,B1
+romperse una pierna,B1
+romperse un brazo,B1
+adelgazar,B1
+engordar,B1
+estar agotado,B1
+estar estresado,B1
+estar resfriado,B1
+estar mareado,B1
+doctor,B1
+enfermo,B1
+clínica,B1
+centro de salud,B1
+médico de guardia,B1
+hospital de guardia,B1
+farmacia de guardia,B1
+análisis de sangre,B1
+análisis de orina,B1
+dentista,B1
+ginecólogo,B1
+oculista,B1
+psicólogo,B1
+cirujano,B1
+paciente,B1
+pedir hora,B1
+pedir cita,B1
+hacerse una revisión,B1
+hacerse unas pruebas de sangre,B1
+hacerse unas pruebas de orina,B1
+un control de sangre,B1
+un control de orina,B1
+un análisis de sangre,B1
+un análisis de orina,B1
+ingresar en un hospital,B1
+ingresar en urgencias,B1
+dar de alta,B1
+dar de baja,B1
+dar el alta,B1
+dar la baja,B1
+dar el alta médica,B1
+dar la baja médica,B1
+tirita,B1
+alcohol,B1
+agua oxigenada,B1
+algodón,B1
+termómetro,B1
+antibiótico,B1
+aspirina,B1
+gotas,B1
+vacuna,B1
+pastilla,B1
+darse una crema,B1
+echarse unas gotas,B1
+ponerse una vacuna,B1
+ponerse el termómetro,B1
+hacer una receta,B1
+dar una receta,B1
+hacer una receta médica,B1
+dar una receta médica,B1
+cepillo,B1
+peine,B1
+secador de pelo,B1
+zapatillas,B1
+gorro de ducha,B1
+gorro de baño,B1
+espuma de afeitar,B1
+gel de afeitar,B1
+maquinilla de afeitar,B1
+cuchilla de afeitar,B1
+pastilla de jabón,B1
+perfume,B1
+barra de labios,B1
+corte de pelo,B1
+peinado,B1
+pintarse los ojos,B1
+pintarse los labios,B1
+tener las manos suave,B1
+tener la piel suave,B1
+cortarse el pelo,B1
+DNI,B1
+DNI Documento Nacional de Identidad,B1
+visado,B1
+cheques de viaje,B1
+equipaje,B1
+bolsa de aseo,B1
+bolsa de viaje,B1
+exceso de equipaje,B1
+mapa de carreteras,B1
+plano turístico,B1
+callejero,B1
+anular un billete,B1
+cambiar un billete,B1
+facturar el equipaje,B1
+facturar las maletas,B1
+perder el equipaje,B1
+perder las maletas,B1
+hacer un crucero,B1
+hacer un safari,B1
+viaje de trabajo,B1
+viaje de estudios,B1
+viaje de negocios,B1
+viaje de larga duración,B1
+viajar en familia,B1
+viajar en grupo,B1
+irse de puente,B1
+irse de fin de semana,B1
+marcharse de puente,B1
+marcharse de fin de semana,B1
+salir de puente,B1
+salir de fin de semana,B1
+hacer un viaje organizado,B1
+contratar un viaje organizado,B1
+hacer turismo,B1
+subir de un tren,B1
+subir de un autobús,B1
+subir de un avión,B1
+subirse a un tren,B1
+subirse a un autobús,B1
+subirse a un avión,B1
+bajarse de un tren,B1
+bajarse de un autobús,B1
+bajarse de un avión,B1
+arena,B1
+olas,B1
+sandalias,B1
+sombrilla,B1
+pelota,B1
+buceador,B1
+tomar el sol,B1
+pasear por la orilla,B1
+jugar en la arena,B1
+paseo,B1
+montañero,B1
+senderista,B1
+escalador,B1
+cazador,B1
+dar un paseo,B1
+ir de paseo,B1
+hacer una marcha,B1
+hacer una excursión,B1
+hacer senderismo,B1
+hacer escalada,B1
+hostal,B1
+pensión,B1
+tienda de campaña,B1
+recepción,B1
+entrada,B1
+salida de emergencia,B1
+recepcionista,B1
+conserje,B1
+saco de dormir,B1
+manta,B1
+nevera portátil,B1
+ir de camping,B1
+hacer camping,B1
+haber servicio de habitaciones,B1
+haber sala de reuniones,B1
+haber instalaciones para minusválidos,B1
+haber aparcamiento,B1
+estar completo,B1
+haber plazas libres,B1
+autopista,B1
+vía,B1
+andén,B1
+túnel,B1
+semáforo,B1
+paso de cebra,B1
+paso de peatones,B1
+carril bus,B1
+carril bici,B1
+haber caravana,B1
+haber atasco,B1
+haber un embotellamiento,B1
+haber caravana,B1
+haber un atasco,B1
+haber un embotellamiento,B1
+ir con retraso,B1
+salir con retraso,B1
+llegar con retraso,B1
+parar,B1
+viajero,B1
+tranvía,B1
+moto,B1
+camión,B1
+asiento,B1
+fila,B1
+pasillo,B1
+maletero,B1
+cinturón,B1
+conducir,B1
+aparcar,B1
+parar,B1
+girar,B1
+subir de una bicicleta,B1
+subir de una moto,B1
+subir de un coche,B1
+subirse a una bicicleta,B1
+subirse a una moto,B1
+subirse a un coche,B1
+montarse en una bicicleta,B1
+montarse en una moto,B1
+montarse en un coche,B1
+bajarse de una bicicleta,B1
+bajarse de una moto,B1
+bajarse de un coche,B1
+hacer transbordo,B1
+perder el tren,B1
+perder el autobús,B1
+barca,B1
+piragua,B1
+marinero,B1
+capitán,B1
+navegar,B1
+subir de un barco,B1
+subirse a un barco,B1
+bajarse de un barco,B1
+helicóptero,B1
+globo,B1
+ala delta,B1
+parapente,B1
+terminal,B1
+punto de información,B1
+punto de encuentro,B1
+tarjeta de embarque,B1
+puerta de embarque,B1
+sala de llegadas,B1
+sala de embarque,B1
+asiento,B1
+ventanilla,B1
+despegar,B1
+aterrizar,B1
+hacer escala,B1
+facturar el equipaje,B1
+facturar las maletas,B1
+recoger el equipaje,B1
+recoger las maletas,B1
+subir de un avión,B1
+subirse a un avión,B1
+bajarse de un avión,B1
+circulación,B1
+tráfico,B1
+policía de tráfico,B1
+accidente de tráfico,B1
+accidente de coche,B1
+haber un accidente,B1
+tener un accidente,B1
+ver un accidente,B1
+gasolinera,B1
+gasolina sin plomo,B1
+gasolina normal,B1
+gasolina súper,B1
+gasoil,B1
+estar estropeado,B1
+arreglar el coche,B1
+seguro del coche,B1
+seguro obligatorio,B1
+economía,B1
+economista,B1
+hipoteca,B1
+pobreza,B1
+riqueza,B1
+Tercer Mundo,B1
+países ricos,B1
+países pobres,B1
+países en vías de desarrollo,B1
+tener cambio,B1
+tener suelto,B1
+llevar cambio,B1
+llevar suelto,B1
+pagar en metálico,B1
+pagar en efectivo,B1
+gastar,B1
+subir los intereses,B1
+bajar los intereses,B1
+pagar impuestos,B1
+compra,B1
+venta,B1
+comercio,B1
+importación,B1
+exportación,B1
+deber dinero,B1
+pagar impuestos,B1
+pagar en metálico,B1
+pagar con cheque,B1
+tener descuento,B1
+hacer descuento,B1
+tener un descuento,B1
+hacer un descuento,B1
+subir el precio,B1
+bajar el precio,B1
+aumentar el precio,B1
+disminuir el precio,B1
+importación,B1
+exportación,B1
+importar,B1
+exportar,B1
+márquetin,B1
+cartel,B1
+folleto,B1
+catálogo,B1
+exhibición,B1
+publicitario,B1
+organización,B1
+compañía,B1
+agencia,B1
+laboratorio,B1
+empleado,B1
+actividad,B1
+producción,B1
+fabricación,B1
+puesto de trabajo,B1
+huelga,B1
+trabajador,B1
+producir,B1
+fabricar,B1
+industria,B1
+agricultura,B1
+ganadería,B1
+pesca,B1
+construcción,B1
+comercio,B1
+transportes,B1
+materia prima,B1
+energía,B1
+producción,B1
+fabricación,B1
+fabricar,B1
+producir,B1
+pescador,B1
+barco de pesca,B1
+marisco,B1
+estudio,B1
+análisis,B1
+método,B1
+materia,B1
+invento,B1
+descubrimiento,B1
+laboratorio,B1
+experimento,B1
+conocer,B1
+inventar,B1
+ecología,B1
+biología,B1
+veterinaria,B1
+genética,B1
+biólogo,B1
+veterinario,B1
+vida,B1
+ecológico,B1
+círculo,B1
+triángulo,B1
+sumar,B1
+restar,B1
+multiplicar,B1
+dividir,B1
+teclado,B1
+tecla,B1
+pantalla,B1
+ratón,B1
+cibercafé,B1
+impresora láser,B1
+impresora en color,B1
+antivirus,B1
+hacer clic,B1
+hacer clic con el ratón,B1
+pulsar,B1
+abrir un documento,B1
+cerrar un documento,B1
+guardar un documento,B1
+eliminar un documento,B1
+copiar una palabra,B1
+cortar una palabra,B1
+pegar una palabra,B1
+insertar una palabra,B1
+seleccionar una palabra,B1
+buscar una palabra,B1
+instalar un programa,B1
+desinstalar un programa,B1
+usuario,B1
+contraseña,B1
+bajar un programa,B1
+bajarse un programa,B1
+descargarse un programa,B1
+física,B1
+química,B1
+energía,B1
+electricidad,B1
+oro,B1
+plata,B1
+hierro,B1
+físico,B1
+químico,B1
+electrónico,B1
+orgánico,B1
+inorgánico,B1
+símbolo químico,B1
+elemento químico,B1
+estado sólido,B1
+estado líquido,B1
+estado gaseoso,B1
+congelar,B1
+congelarse,B1
+evaporarse,B1
+sociología,B1
+historia,B1
+sociólogo,B1
+historiador,B1
+político,B1
+ciudadano,B1
+comunidad,B1
+organización,B1
+club,B1
+historia antigua,B1
+historia medieval,B1
+historia universal,B1
+historia contemporánea,B1
+historia del arte,B1
+derechos,B1
+deberes,B1
+crisis,B1
+progreso,B1
+público,B1
+privado,B1
+ayuda,B1
+cortesía,B1
+amabilidad,B1
+educado,B1
+buena persona,B1
+respetar,B1
+nación,B1
+estado,B1
+provincia,B1
+distrito,B1
+ministro,B1
+ministro de Interior,B1
+ministro de Defensa,B1
+ministro de Educación,B1
+ministro de Asuntos Exteriores,B1
+jefe de Estado,B1
+vicepresidente,B1
+alcalde,B1
+senado,B1
+congreso,B1
+parlamento,B1
+Ministerio,B1
+Unión Europea,B1
+Unión Europea UE,B1
+Organización de las Naciones Unidas,B1
+Organización de las Naciones Unidas ONU,B1
+embajador,B1
+cónsul,B1
+embajada,B1
+consulado,B1
+república,B1
+monarquía,B1
+democracia,B1
+dictadura,B1
+sindicato,B1
+partido de izquierdas,B1
+partido de derechas,B1
+partido de centro,B1
+partido de la oposición,B1
+comunista,B1
+socialista,B1
+conservador,B1
+demócrata,B1
+liberal,B1
+republicano,B1
+gobernar,B1
+constitución,B1
+ley,B1
+ladrón,B1
+terrorista,B1
+asesino,B1
+robo,B1
+muerte,B1
+terrorismo,B1
+grupo terrorista,B1
+atentado terrorista,B1
+robar,B1
+matar,B1
+ser legal,B1
+ser ilegal,B1
+ir a la cárcel,B1
+capitán,B1
+general,B1
+militar,B1
+soldado,B1
+guerra civil,B1
+guerra mundial,B1
+guerra de independencia,B1
+pistola,B1
+bomba,B1
+estar en guerra,B1
+imaginación,B1
+obra de arte,B1
+galería de arte,B1
+arquitectura,B1
+arte clásico,B1
+arte moderno,B1
+estilo clásico,B1
+estilo moderno,B1
+crear,B1
+diseñar,B1
+fotografiar,B1
+artístico,B1
+original,B1
+ser un genio,B1
+baile,B1
+bailarín,B1
+ballet,B1
+orquesta,B1
+grupo,B1
+grupo musical,B1
+letra,B1
+letra de una canción,B1
+compositor,B1
+director de orquesta,B1
+guitarrista,B1
+pianista,B1
+violinista,B1
+obra de arte,B1
+galería de arte,B1
+diseñador,B1
+escultor,B1
+arquitectura,B1
+escultura,B1
+diseñar,B1
+pintar un cuadro,B1
+pintar un paisaje,B1
+pintar un retrato,B1
+construir un acueducto,B1
+construir una muralla,B1
+construir una mezquita,B1
+construir una sinagoga,B1
+poeta,B1
+novelista,B1
+traductor,B1
+personaje,B1
+protagonista,B1
+poema,B1
+biografía,B1
+autobiografía,B1
+literatura clásica,B1
+literatura moderna,B1
+novela policiaca,B1
+novela histórica,B1
+novela de amor,B1
+novela de ciencia ficción,B1
+novela de aventuras,B1
+contar,B1
+contar la historia de,B1
+tratar de,B1
+cámara digital,B1
+foto digital,B1
+foto en color,B1
+foto en blanco y negro,B1
+fotografía digital,B1
+fotografía en color,B1
+fotografía en blanco y negro,B1
+flash,B1
+zum,B1
+álbum de fotos,B1
+fotografiar,B1
+tomar una foto,B1
+sacar una foto,B1
+hacer una copia,B1
+imprimir,B1
+cartelera,B1
+día del espectador,B1
+espectáculo,B1
+comedia,B1
+drama,B1
+asiento,B1
+pantalla,B1
+escenario,B1
+personaje,B1
+protagonista,B1
+película policiaca,B1
+película romántica,B1
+película de amor,B1
+película de terror,B1
+película de risa,B1
+película de ciencia ficción,B1
+película de acción,B1
+película de aventuras,B1
+película de guerra,B1
+película de dibujos animados,B1
+película en versión original,B1
+película doblada,B1
+película subtitulada,B1
+final feliz,B1
+final triste,B1
+final abierto,B1
+hacer una película,B1
+poner una película,B1
+poner una obra de teatro,B1
+contar,B1
+contar la historia de,B1
+tratar de,B1
+el Papa,B1
+san,B1
+santo,B1
+creyente,B1
+ateo,B1
+sacerdote,B1
+ir a misa,B1
+Iglesia católica,B1
+Iglesia anglicana,B1
+Iglesia evangélica,B1
+Biblia,B1
+Corán,B1
+Torá,B1
+cielo,B1
+infierno,B1
+cristiano,B1
+católico,B1
+protestante,B1
+ortodoxo,B1
+practicar la religión,B1
+celebrar una boda,B1
+rezar,B1
+pensar,B1
+horóscopo,B1
+universo,B1
+espacio,B1
+atmósfera,B1
+astronauta,B1
+cohete,B1
+satélite,B1
+viaje espacial,B1
+universal,B1
+mundial,B1
+aterrizar,B1
+cohete,B1
+astronauta,B1
+geografía,B1
+sitio,B1
+zona,B1
+paisaje,B1
+provincia,B1
+comunidad autónoma,B1
+estado,B1
+nación,B1
+población,B1
+hemisferio norte,B1
+hemisferio sur,B1
+polo norte,B1
+polo sur,B1
+Oriente,B1
+Occidente,B1
+oriental,B1
+occidental,B1
+internacional,B1
+nacional,B1
+regional,B1
+emigrante,B1
+inmigrante,B1
+geográfico,B1
+paisaje,B1
+vista,B1
+continente,B1
+península,B1
+valle,B1
+lago,B1
+selva,B1
+Europa,B1
+Asia,B1
+África,B1
+América,B1
+Oceanía,B1
+océano Atlántico,B1
+océano Pacífico,B1
+océano Ártico,B1
+mar Mediterráneo,B1
+mar Báltico,B1
+mar Rojo,B1
+tierra húmedo,B1
+tierra seco,B1
+suelo húmedo,B1
+suelo seco,B1
+afueras,B1
+las afueras,B1
+comisaría de policía,B1
+parque de bomberos,B1
+barrio comercial,B1
+barrio residencial,B1
+barrio industrial,B1
+zona comercial,B1
+zona residencial,B1
+zona industrial,B1
+casco histórico,B1
+casco antiguo,B1
+céntrico,B1
+camino,B1
+huerta,B1
+prado,B1
+tierra,B1
+cultivo,B1
+plantar,B1
+cultivar,B1
+regar,B1
+estación,B1
+estación del año,B1
+granizo,B1
+hielo,B1
+huracán,B1
+ola de frío,B1
+ola de calor,B1
+clima seco,B1
+clima húmedo,B1
+nublarse,B1
+salir el sol,B1
+estar despejado,B1
+estar nublado,B1
+estar el cielo despejado,B1
+estar el cielo nublado,B1
+mamífero,B1
+insecto,B1
+ave,B1
+reptil,B1
+animal doméstico,B1
+animal salvaje,B1
+animal de compañía,B1
+conejo,B1
+oveja,B1
+cordero,B1
+gallo,B1
+gallina,B1
+león,B1
+tigre,B1
+elefante,B1
+serpiente,B1
+cocodrilo,B1
+selva,B1
+parque natural,B1
+hierba,B1
+césped,B1
+tronco,B1
+hoja,B1
+rama,B1
+raíz,B1
+planta de interior,B1
+planta de exterior,B1
+árbol frutal,B1
+plantar un árbol,B1
+regar las plantas,B1
+regar el jardín,B1
+caerse las hojas,B1
+secarse las hojas,B1
+cultivar,B1
+cortar una flor,B1
+contaminación,B1
+polución,B1
+terremoto,B1
+huracán,B1
+ecología,B1
+ecologista,B1
+reciclaje,B1
+papel reciclado,B1
+cartón reciclado,B1
+vidrio reciclado,B1
+contenedor de papel,B1
+contenedor de vidrio,B1
+cambio climático,B1
+energía alternativa,B1
+recursos naturales,B1
+agujero de la capa de ozono,B1
+contaminado,B1
+contaminante,B1
+tóxico,B1
+cuidar el medio ambiente,B1
+cuidar la naturaleza,B1
+respetar el medio ambiente,B1
+respetar la naturaleza,B1
+proteger el medio ambiente,B1
+proteger la naturaleza,B1
+conservar el medio ambiente,B1
+conservar la naturaleza,B1
+reciclar vidrio,B1
+reciclar pilas,B1
+reciclar papel,B1
+reciclar cartón,B1
+reciclar latas,B1
+frente,B2
+mejilla,B2
+barbilla,B2
+ceja,B2
+pestaña,B2
+cana,B2
+uña,B2
+cerebro,B2
+hígado,B2
+riñón,B2
+intestino,B2
+esqueleto,B2
+columna,B2
+costilla,B2
+nervio,B2
+articulación,B2
+arteria,B2
+tendón,B2
+ciego,B2
+sordo,B2
+mudo,B2
+saliva,B2
+lágrima,B2
+sudor,B2
+gesto,B2
+expresión,B2
+ser de estatura normal,B2
+ser de estatura media,B2
+ser de estatura mediana,B2
+ser de altura normal,B2
+ser de altura media,B2
+ser de altura mediana,B2
+tener arrugas,B2
+tener una cicatriz,B2
+tener buen color,B2
+tener buen aspecto,B2
+tener mal color,B2
+tener mal aspecto,B2
+ser clavados,B2
+ser idénticos,B2
+ser como dos gotas de agua,B2
+tumbarse,B2
+tirarse,B2
+incorporarse,B2
+alzarse,B2
+agacharse,B2
+cruzar los brazos,B2
+cruzar las piernas,B2
+estar agachado,B2
+estar derecho,B2
+ponerse de pie,B2
+ponerse de espaldas,B2
+ponerse de perfil,B2
+ponerse de frente,B2
+ponerse de rodillas,B2
+quedarse quieto,B2
+quedarse dormido,B2
+quedarse agachado,B2
+quedarse de espaldas,B2
+quedarse de rodillas,B2
+rascarse,B2
+arañar,B2
+acariciar,B2
+dar una patada,B2
+dar una torta,B2
+dar un puñetazo,B2
+estornudar,B2
+bostezar,B2
+sudar,B2
+masticar,B2
+escupir,B2
+aguantar,B2
+sujetar,B2
+aplaudir,B2
+señalar,B2
+indicar,B2
+menstruación,B2
+fecundación,B2
+embarazo,B2
+aborto,B2
+parto,B2
+cesárea,B2
+maternidad,B2
+paternidad,B2
+cadáver,B2
+tumba,B2
+dar a luz,B2
+fallecer,B2
+enterrar,B2
+incinerar,B2
+ambición,B2
+arrogancia,B2
+constancia,B2
+inconstancia,B2
+cobardía,B2
+curiosidad,B2
+egoísmo,B2
+generosidad,B2
+puntualidad,B2
+impuntualidad,B2
+responsabilidad,B2
+irresponsabilidad,B2
+sensibilidad,B2
+insensibilidad,B2
+seriedad,B2
+sinceridad,B2
+insinceridad,B2
+ternura,B2
+timidez,B2
+valentía,B2
+ambicioso,B2
+callado,B2
+cobarde,B2
+constante,B2
+curioso,B2
+discreto,B2
+tacaño,B2
+tierno,B2
+responsable,B2
+irresponsable,B2
+susceptible,B2
+apasionado,B2
+solidario,B2
+tener personalidad,B2
+tener carácter,B2
+tener temperamento,B2
+no tener personalidad,B2
+no tener carácter,B2
+no tener temperamento,B2
+tener un carácter brusco,B2
+tener un carácter tranquilo,B2
+tener un carácter serio,B2
+ser de carácter brusco,B2
+ser de carácter tranquilo,B2
+ser de carácter serio,B2
+tener curiosidad,B2
+tener ambición,B2
+estar acomplejado,B2
+tener complejo de inferioridad,B2
+tener complejo de superioridad,B2
+no tener dos dedos de frente,B2
+estar como una cabra,B2
+alegría,B2
+admiración,B2
+alivio,B2
+emoción,B2
+felicidad,B2
+orgullo,B2
+angustia,B2
+enfado,B2
+estrés,B2
+odio,B2
+temor,B2
+tristeza,B2
+animado,B2
+desanimado,B2
+contento,B2
+fascinado,B2
+feliz,B2
+ilusionado,B2
+desilusionado,B2
+satisfecho,B2
+sorprendido,B2
+agobiado,B2
+apenado,B2
+avergonzado,B2
+disgustado,B2
+dolido,B2
+indignado,B2
+resignado,B2
+sin ánimos,B2
+disfrutar,B2
+hacer ilusión,B2
+amar,B2
+adorar,B2
+volver loco,B2
+sorprenderse,B2
+asustarse,B2
+estresarse,B2
+avergonzarse,B2
+cansarse,B2
+detestar,B2
+lamentar,B2
+resignarse,B2
+tener envidia,B2
+dar asco,B2
+dar pánico,B2
+dar terror,B2
+dar igual,B2
+ponerse furioso,B2
+ponerse histérico,B2
+sentir alegría,B2
+sentir angustia,B2
+sentirse animado,B2
+sentirse agobiado,B2
+vista,B2
+oído,B2
+gusto,B2
+tacto,B2
+olfato,B2
+tener un calor horrible,B2
+tener un calor espantoso,B2
+tener un frío horrible,B2
+tener un frío espantoso,B2
+pasar un calor horrible,B2
+pasar un calor espantoso,B2
+pasar un frío horrible,B2
+pasar un frío espantoso,B2
+sentir un calor horrible,B2
+sentir un calor espantoso,B2
+sentir un frío horrible,B2
+sentir un frío espantoso,B2
+tener un dolor horrible,B2
+tener un dolor espantoso,B2
+tener un sueño horrible,B2
+tener un sueño espantoso,B2
+estar agotado,B2
+estar hambriento,B2
+estar helado,B2
+agotarse,B2
+experimentar dolor,B2
+estar consciente,B2
+estar inconsciente,B2
+estar distraído,B2
+estar loco,B2
+estar bien educado,B2
+estar mal educado,B2
+ser atento,B2
+actuar correctamente,B2
+tener buenos modales,B2
+tener malos modales,B2
+tener modales,B2
+tener educación,B2
+no tener modales,B2
+no tener educación,B2
+ambición,B2
+constancia,B2
+inconstancia,B2
+cobardía,B2
+valentía,B2
+egoísmo,B2
+generosidad,B2
+sinceridad,B2
+insinceridad,B2
+justicia,B2
+solidaridad,B2
+ambicioso,B2
+tacaño,B2
+solidario,B2
+justo,B2
+constante,B2
+mejorar,B2
+progresar,B2
+evolucionar,B2
+cambiar de nombre,B2
+cambiar de apellido,B2
+llamar por el nombre,B2
+llamar por el apellido,B2
+tratar de tú,B2
+tratar de usted,B2
+tutear,B2
+vivir en la periferia,B2
+vivir en el casco antiguo,B2
+vivir en el casco histórico,B2
+mudarse de barrio,B2
+mudarse de zona,B2
+niñez,B2
+preadolescencia,B2
+madurez,B2
+vejez,B2
+madurar,B2
+envejecer,B2
+hacerse mayor,B2
+quedarse viudo,B2
+validez,B2
+fecha de expiración,B2
+válido de. a.,B2
+estar caducado el pasaporte,B2
+estar caducado el permiso de residencia,B2
+tener caducado el pasaporte,B2
+tener caducado el permiso de residencia,B2
+alianza de oro,B2
+alianza de plata,B2
+colgante de oro,B2
+colgante de plata,B2
+gargantilla de oro,B2
+gargantilla de plata,B2
+cadena de oro,B2
+cadena de plata,B2
+reloj de pulsera,B2
+reloj digital,B2
+reloj analógico,B2
+lentillas,B2
+gafas de sol,B2
+gafas graduadas,B2
+gafas de cerca,B2
+gafas de lejos,B2
+tener un valor sentimental,B2
+cónyuge,B2
+cuñado,B2
+suegro,B2
+yerno,B2
+nuera,B2
+bisabuelo,B2
+tatarabuelo,B2
+mellizos,B2
+trillizos,B2
+madre de alquiler,B2
+niño probeta,B2
+familiar cercano,B2
+familiar lejano,B2
+familia numerosa,B2
+familia adoptiva,B2
+padre,B2
+hijo adoptivo,B2
+niño huérfano,B2
+maternidad,B2
+paternidad,B2
+ser de familia humilde,B2
+ser de familia trabajadora,B2
+ser de familia rica,B2
+crecer la familia,B2
+aumentar la familia,B2
+reñir,B2
+pelearse,B2
+estar en familia,B2
+ser como de la familia,B2
+educar,B2
+educarse,B2
+crecer,B2
+quedarse huérfano,B2
+perder a un hijo,B2
+perder a un hermano,B2
+perder a los padres,B2
+heredar,B2
+hacer testamento,B2
+amigo íntimo,B2
+amigo de toda la vida,B2
+antiguo amigo,B2
+viejo amigo,B2
+íntimo amigo,B2
+miembro,B2
+invitado,B2
+enemigo,B2
+relación amorosa,B2
+relación amistosa,B2
+relación laboral,B2
+relación personal,B2
+relación profesional,B2
+relación sentimental,B2
+reunión de vecinos,B2
+reunión de socios,B2
+reunión de antiguos alumnos,B2
+tener un lío,B2
+tener un romance,B2
+tener un amante,B2
+tener un ligue,B2
+conocer de vista,B2
+conocer bien,B2
+conocer por casualidad,B2
+conocerse de vista,B2
+conocerse bien,B2
+conocerse por casualidad,B2
+relacionarse con alguien,B2
+tratar con alguien,B2
+hacer amigos,B2
+mantener una relación,B2
+romper una relación,B2
+saludar calurosamente,B2
+saludar afectuosamente,B2
+despedirse calurosamente,B2
+despedirse afectuosamente,B2
+felicitar cordialmente,B2
+felicitar sinceramente,B2
+hacer una visita,B2
+ir de visita,B2
+darse dos besos,B2
+estar prometido,B2
+seducir,B2
+nacimiento,B2
+bautizo,B2
+comunión,B2
+primera comunión,B2
+santo,B2
+aniversario,B2
+bodas de oro,B2
+bodas de plata,B2
+ceremonia,B2
+banquete,B2
+marcha nupcial,B2
+tarta nupcial,B2
+suite nupcial,B2
+fiesta nacional,B2
+fiesta local,B2
+fiesta religiosa,B2
+fiesta oficial,B2
+celebración,B2
+acto oficial,B2
+acto religioso,B2
+acto solemne,B2
+acto académico,B2
+ceremonia sencillo,B2
+ceremonia formal,B2
+acto sencillo,B2
+acto formal,B2
+ceremonia sencillo,B2
+ceremonia informal,B2
+acto sencillo,B2
+acto informal,B2
+organizar un cóctel,B2
+organizar una celebración,B2
+organizar una fiesta de disfraces,B2
+organizar un funeral,B2
+celebrar un cóctel,B2
+celebrar una celebración,B2
+celebrar una fiesta de disfraces,B2
+celebrar un funeral,B2
+cancelar un cóctel,B2
+cancelar una celebración,B2
+cancelar una fiesta de disfraces,B2
+cancelar un funeral,B2
+asistir a un cóctel,B2
+asistir a una celebración,B2
+asistir a una fiesta de disfraces,B2
+asistir a un funeral,B2
+conmemorar un aniversario,B2
+conmemorar una fecha,B2
+ser el centro de la fiesta,B2
+dar un discurso,B2
+decir unas palabras,B2
+brindar,B2
+hacer un brindis,B2
+empaquetar un regalo,B2
+desenvolver un regalo,B2
+desempaquetar un regalo,B2
+conducta prudente,B2
+conducta discriminatorio,B2
+comportamiento prudente,B2
+comportamiento discriminatorio,B2
+habilidad,B2
+cuidado,B2
+imprudencia,B2
+hablar bien de alguien,B2
+hablar mal de alguien,B2
+mostrar una actitud adecuado,B2
+mostrar una actitud injusto,B2
+mostrar un comportamiento adecuado,B2
+mostrar un comportamiento injusto,B2
+tener una actitud adecuado,B2
+tener una actitud injusto,B2
+tener un comportamiento adecuado,B2
+tener un comportamiento injusto,B2
+comportarse bien,B2
+comportarse mal,B2
+comportarse fatal,B2
+dar apoyo,B2
+dar amistad,B2
+dar cariño,B2
+dar comprensión,B2
+mostrar apoyo,B2
+mostrar amistad,B2
+mostrar cariño,B2
+mostrar comprensión,B2
+mostrar confianza,B2
+mostrar respeto,B2
+sentir confianza,B2
+sentir respeto,B2
+tener confianza,B2
+tener respeto,B2
+alimento sin conservantes,B2
+alimento sin colorantes,B2
+alimento bajo en calorías,B2
+alimento bajo en sal,B2
+alimento bajo en azúcar,B2
+alimento rico en calorías,B2
+alimento rico en vitaminas,B2
+alimento rico en proteínas,B2
+alimento rico en fibra,B2
+alimento rico en hierro,B2
+alimento rico en calcio,B2
+alimento fresco,B2
+alimento congelado,B2
+alimento orgánico,B2
+alimento dietético,B2
+producto fresco,B2
+producto congelado,B2
+producto orgánico,B2
+producto dietético,B2
+producto alimenticio,B2
+comida escasa,B2
+comida abundante,B2
+estar en buenas condiciones,B2
+estar en malas condiciones,B2
+estar malo,B2
+estar podrido,B2
+estar caducado,B2
+ponerse malo,B2
+pudrirse,B2
+ayunar,B2
+tener apetito,B2
+devorar,B2
+comer moderadamente,B2
+comer excesivamente,B2
+hacer la digestión,B2
+cortarse la digestión,B2
+digerir,B2
+ser indigesto,B2
+refresco,B2
+licor,B2
+cóctel,B2
+vino seco,B2
+vino dulce,B2
+agua potable,B2
+agua del grifo,B2
+cerveza de barril,B2
+abrebotellas,B2
+sacacorchos,B2
+corcho,B2
+tapón,B2
+corcho de la botella,B2
+tapón de la botella,B2
+dar sed,B2
+quitar la sed,B2
+chupar,B2
+tragar,B2
+mamar,B2
+emborracharse,B2
+merengue,B2
+crema pastelera,B2
+bollería,B2
+ensaimada,B2
+palmera,B2
+dulces,B2
+caramelo,B2
+lenguado,B2
+dorada,B2
+salmonete,B2
+lubina,B2
+frutos del bosque,B2
+frambuesa,B2
+mora,B2
+grosella,B2
+pierna de cordero,B2
+magro de ternera,B2
+magro de cerdo,B2
+langosta,B2
+langostino,B2
+mejillón,B2
+almeja,B2
+legumbres,B2
+frutos secos,B2
+almendras,B2
+nueces,B2
+avellanas,B2
+albahaca,B2
+romero,B2
+tomillo,B2
+orégano,B2
+piel,B2
+hueso,B2
+pechugas de pollo,B2
+pechugas de pavo,B2
+muslos de pollo,B2
+muslos de pavo,B2
+alas de pollo,B2
+alas de pavo,B2
+leche condensada,B2
+leche en polvo,B2
+queso fresco,B2
+queso azul,B2
+queso de cabra,B2
+queso de oveja,B2
+harina de trigo,B2
+harina de maíz,B2
+levadura,B2
+pan integral,B2
+pan rallado,B2
+pan de molde,B2
+carne a la brasa,B2
+carne asada,B2
+carne guisada,B2
+preparar una comida,B2
+servir una comida,B2
+cocinar un plato,B2
+cocinar un alimento,B2
+exprimir un limón,B2
+rallar queso,B2
+picar carne,B2
+trocear una manzana,B2
+cocer al vapor,B2
+cocer a fuego lento,B2
+cocer al baño María,B2
+calentar agua,B2
+calentar una salsa,B2
+rebozar una pechuga,B2
+empanar una pechuga,B2
+dorar la cebolla,B2
+cortar en trozos finos,B2
+cortar en trozos gruesos,B2
+cortar en trozos pequeños,B2
+cortar en tacos finos,B2
+cortar en tacos gruesos,B2
+cortar en tacos pequeños,B2
+cortar en dados finos,B2
+cortar en dados gruesos,B2
+cortar en dados pequeños,B2
+bacalao al pilpil,B2
+fabada,B2
+arroz con leche,B2
+macedonia de frutas,B2
+sorbete al cava,B2
+pincho,B2
+ración,B2
+sabroso,B2
+delicioso,B2
+exquisito,B2
+comestible,B2
+incomestible,B2
+comible,B2
+incomible,B2
+disfrutar una comida,B2
+disfrutar de una comida,B2
+fuente,B2
+bol,B2
+tazón,B2
+olla,B2
+olla a presión,B2
+cacharro,B2
+cazuela,B2
+cazuela de barro,B2
+recipiente,B2
+cuenco,B2
+ensaladera,B2
+sopera,B2
+sacacorchos,B2
+abrelatas,B2
+autoservicio,B2
+hamburguesería,B2
+restaurante de fama internacional,B2
+restaurante de cuatro tenedores,B2
+banquete,B2
+bufé,B2
+barra,B2
+barman,B2
+comedor,B2
+salón,B2
+poner un restaurante,B2
+llevar un restaurante,B2
+montar un restaurante,B2
+comer de menú,B2
+comer a la carta,B2
+tapear,B2
+atender una mesa,B2
+servir una mesa,B2
+sentarse a la mesa,B2
+retirar el primer plato,B2
+retirar el segundo plato,B2
+colegio bilingüe,B2
+colegio religioso,B2
+colegio laico,B2
+escuela superior,B2
+alumnado,B2
+profesorado,B2
+catedrático,B2
+rector,B2
+jefe de estudios,B2
+maestro,B2
+tutor,B2
+director de tesis,B2
+delegado de curso,B2
+conferenciante,B2
+universitario,B2
+asociación de profesores,B2
+asociación de antiguos alumnos,B2
+asignatura obligatoria,B2
+asignatura común,B2
+materia trimestral,B2
+materia anual,B2
+curso elemental,B2
+curso obligatorio,B2
+curso optativo,B2
+formación continua,B2
+formación permanente,B2
+educación primaria,B2
+educación secundaria,B2
+educación universitaria,B2
+educación superior,B2
+educación a adultos,B2
+enseñanza primaria,B2
+enseñanza secundaria,B2
+enseñanza universitaria,B2
+enseñanza superior,B2
+enseñanza a adultos,B2
+estudios primarios,B2
+estudios secundarios,B2
+estudios superiores,B2
+estudios universitarios,B2
+educación pública,B2
+educación privada,B2
+educación religiosa,B2
+educación laica,B2
+enseñanza presencial,B2
+enseñanza virtual,B2
+enseñanza a distancia,B2
+curso presencial,B2
+curso virtual,B2
+curso a distancia,B2
+curso intensivo,B2
+curso de iniciación,B2
+curso de perfeccionamiento,B2
+seminario,B2
+congreso,B2
+ofrecer educación superior,B2
+ofrecer educación universitaria,B2
+recibir educación superior,B2
+recibir educación universitaria,B2
+solicitar una beca,B2
+solicitar una plaza,B2
+conceder una beca,B2
+conceder una plaza,B2
+disfrutar de una beca,B2
+conseguir una beca,B2
+obtener una beca,B2
+obtener créditos,B2
+dar créditos,B2
+conseguir créditos,B2
+tener un buen expediente,B2
+tener un mal expediente,B2
+educación,B2
+enseñanza,B2
+aprendizaje,B2
+alumno brillante,B2
+alumno estudioso,B2
+alumno conflictivo,B2
+didáctico,B2
+educativo,B2
+memorizar,B2
+eflexionar,B2
+deducir,B2
+sacar conclusiones,B2
+quedarse en blanco,B2
+formarse,B2
+educarse,B2
+recibir clases,B2
+tomar clases,B2
+examen parcial,B2
+examen final,B2
+examen cuatrimestral,B2
+examen anual,B2
+prueba parcial,B2
+prueba final,B2
+prueba cuatrimestral,B2
+prueba anual,B2
+control parcial,B2
+control final,B2
+control cuatrimestral,B2
+control anual,B2
+nota media,B2
+nota final,B2
+nota justa,B2
+nota injusta,B2
+nota alta,B2
+nota baja,B2
+evaluación parcial,B2
+evaluación final,B2
+autoevaluación,B2
+preparar un examen,B2
+pasar un examen,B2
+presentarse a un examen,B2
+prepararse un examen,B2
+pasar un examen,B2
+presentarse a un examen,B2
+examinarse,B2
+hacer una prueba,B2
+hacer una prueba de nivel,B2
+sacar buenas notas,B2
+sacar malas notas,B2
+sacar un sobresaliente,B2
+sacar un notable,B2
+sacar un [número cardinal],B2
+poner notas,B2
+pasar de curso,B2
+tener una asignatura pendiente,B2
+quedar una asignatura pendiente,B2
+pedir revisión de examen,B2
+graduado escolar,B2
+formación profesional,B2
+hacer estudios primarios,B2
+hacer secundarios,B2
+hacer universitarios,B2
+tener estudios primarios,B2
+tener secundarios,B2
+tener universitarios,B2
+licenciarse,B2
+titularse,B2
+doctorarse,B2
+hacer la tesis,B2
+hacer la tesis doctoral,B2
+tener una licenciatura,B2
+tener una diplomatura,B2
+tener un doctorado,B2
+tener la especialidad en,B2
+ser licenciado en Empresariales,B2
+ser licenciado en Filología,B2
+ser doctor en Empresariales,B2
+ser doctor en Filología,B2
+abandonar los estudios,B2
+dejar los estudios,B2
+continuar los estudios,B2
+completar los estudios,B2
+plantear una duda,B2
+resolver una duda,B2
+aplicar una fórmula,B2
+deducir una regla,B2
+seguir una regla,B2
+analizar un tema,B2
+debatir un tema,B2
+discutir un tema,B2
+consultar un libro,B2
+consultar una enciclopedia,B2
+consultar Internet,B2
+consultar una gramática,B2
+consultar en un libro,B2
+consultar en una enciclopedia,B2
+consultar en Internet,B2
+consultar en una gramática,B2
+hacer una síntesis,B2
+hacer un comentario,B2
+hacer un experimento,B2
+hacer un cuadro,B2
+hacer una tabla,B2
+hacer una presentación,B2
+presentar un proyecto,B2
+ponerse de pie,B2
+salir al recreo,B2
+pasar lista,B2
+estar castigado,B2
+cartucho de tinta,B2
+grapadora,B2
+grapa,B2
+clip,B2
+celo,B2
+borrador,B2
+retroproyector,B2
+transparencia,B2
+diapositiva,B2
+papel cuadriculado,B2
+cartulina,B2
+rotulador fluorescente,B2
+rotulador de punta fina,B2
+rotulador de punta gruesa,B2
+poner una transparencia,B2
+poner una diapositiva,B2
+proyectar una transparencia,B2
+proyectar una diapositiva,B2
+contratado,B2
+interino,B2
+trabajador en prácticas,B2
+tener un empleo en la Administración,B2
+tener un empleo en una multinacional,B2
+tener un cargo público,B2
+tener un cargo directivo,B2
+tener un cargo de responsabilidad,B2
+ocupar un cargo público,B2
+ocupar un cargo directivo,B2
+ocupar un cargo de responsabilidad,B2
+ejercer de abogado,B2
+ejercer de veterinario,B2
+ejercer como abogado,B2
+ejercer como veterinario,B2
+trabajar como autónomo,B2
+almacén,B2
+granja,B2
+quirófano,B2
+lugar bien acondicionado,B2
+lugar bien iluminado,B2
+lugar mal acondicionado,B2
+lugar mal iluminado,B2
+mono,B2
+delantal,B2
+gafas de protección,B2
+ir de traje,B2
+ir de corbata,B2
+ir de uniforme,B2
+empleo,B2
+ocupación,B2
+contrato indefinido,B2
+contrato fijo,B2
+contrato temporal,B2
+contrato basura,B2
+contrato de prácticas,B2
+trabajo físico,B2
+trabajo manual,B2
+trabajo intelectual,B2
+trabajo cualificado,B2
+trabajo especializado,B2
+trabajo creativo,B2
+trabajo en equipo,B2
+trabajo en cadena,B2
+trabajo en serie,B2
+trabajar por cuenta propia,B2
+trabajar por cuenta ajena,B2
+trabajar a tiempo completo,B2
+trabajar a tiempo parcial,B2
+ejercer una profesión,B2
+ejercer un oficio,B2
+ejercer una función,B2
+desarrollar un trabajo,B2
+desarrollar una función,B2
+desarrollar una tarea,B2
+desarrollar un servicio,B2
+llevar a cabo un trabajo,B2
+llevar a cabo una función,B2
+llevar a cabo una tarea,B2
+llevar a cabo un servicio,B2
+ocupar un puesto,B2
+ocupar una plaza,B2
+ocupar un cargo,B2
+ascender a subdirector,B2
+ascender a jefe de sección,B2
+ascender a responsable de unidad,B2
+realizar un presupuesto,B2
+preparar un presupuesto,B2
+presentar un presupuesto,B2
+coordinar un departamento,B2
+coordinar un equipo,B2
+coordinar un proyecto,B2
+coordinar un departamento,B2
+coordinar un equipo de trabajo,B2
+coordinar un proyecto,B2
+negociar un contrato,B2
+redactar un contrato,B2
+firmar un contrato,B2
+ampliar un contrato,B2
+renovar un contrato,B2
+distribuir un producto,B2
+trabajar a gusto,B2
+trabajar honradamente,B2
+trabajar a disgusto,B2
+trabajar honradamente,B2
+trabajar en buenas condiciones,B2
+trabajar en malas condiciones,B2
+trabajar en óptimas condiciones,B2
+firmar un presupuesto,B2
+revisar la instalación eléctrica,B2
+poner un enchufe,B2
+poner un punto de luz,B2
+poner una toma de corriente,B2
+arreglar un interruptor,B2
+arreglar un enchufe,B2
+arreglar un aparato eléctrico,B2
+empleo,B2
+desempleo,B2
+ocupación,B2
+despido,B2
+oferta de empleo,B2
+oferta pública de empleo,B2
+Instituto Nacional de Empleo,B2
+Instituto Nacional de Empleo INEM,B2
+Empresa de Trabajo Temporal,B2
+Empresa de Trabajo Temporal ETT,B2
+carta de recomendación,B2
+carta de despido,B2
+subir el paro,B2
+subir el desempleo,B2
+bajar el paro,B2
+bajar el desempleo,B2
+crecer el número de desempleados,B2
+aumentar el número de desempleados,B2
+disminuir el número de desempleados,B2
+estar en un proceso de selección,B2
+participar en un proceso de selección,B2
+estar en un proceso de selección de personal,B2
+participar en un proceso de selección de personal,B2
+llamar a alguien para una entrevista,B2
+citar a alguien para una entrevista,B2
+llamar a alguien para una entrevista de trabajo,B2
+citar a alguien para una entrevista de trabajo,B2
+contratar a alguien,B2
+renovar un contrato,B2
+perder el empleo,B2
+ser despedido,B2
+estar desempleado,B2
+cobrar una indemnización,B2
+tener buenas referencias,B2
+tener malas referencias,B2
+anticipo,B2
+comisión,B2
+dietas,B2
+flexibilidad de horario,B2
+jornada laboral,B2
+jornada de trabajo,B2
+día laborable,B2
+día festivo,B2
+comité de empresa,B2
+representante de empresa,B2
+cláusula del contrato,B2
+cláusula del convenio colectivo,B2
+cotización a la Seguridad Social,B2
+contratar,B2
+ser contratado,B2
+estar en periodo de prueba,B2
+superar el periodo de prueba,B2
+cobrar un sueldo,B2
+cobrar un salario fijo,B2
+cobrar una nómina,B2
+cobrar una paga extra,B2
+cobrar una hora extra,B2
+cobrar un anticipo,B2
+cobrar comisiones,B2
+cobrar dietas,B2
+cobrar un sueldo razonable,B2
+cobrar un sueldo ridículo,B2
+cotizar a la Seguridad Social,B2
+tener un día libre,B2
+pedir un día libre,B2
+pedir un aumento de sueldo,B2
+pedir un ascenso,B2
+pedir un anticipo,B2
+pedir un día de permiso,B2
+pedir la jubilación,B2
+pedir un aumento de sueldo,B2
+pedir un ascenso,B2
+pedir un anticipo,B2
+pedir un día de permiso,B2
+pedir la jubilación anticipada,B2
+tener un accidente de trabajo,B2
+prevenir el estrés,B2
+prevenir los riesgos laborales,B2
+estar de baja por paternidad,B2
+estar de baja por enfermedad,B2
+reivindicar,B2
+estar en huelga,B2
+estar retirado,B2
+retirarse,B2
+habilidad,B2
+capacidad,B2
+profesionalidad,B2
+experiencia,B2
+cualificado,B2
+competente,B2
+incompetente,B2
+ambicioso,B2
+profesional,B2
+experto,B2
+inexperto,B2
+capaz,B2
+incapaz,B2
+perezoso,B2
+pasatiempo,B2
+ocio,B2
+parque natural,B2
+parque temático,B2
+parque acuático,B2
+fiesta de disfraces,B2
+fuegos artificiales,B2
+cohetes,B2
+entretenerse,B2
+pasar el rato,B2
+ir de juerga,B2
+ir de fiesta,B2
+salir de juerga,B2
+salir de fiesta,B2
+estar de juerga,B2
+estar de fiesta,B2
+disfrazarse,B2
+resolver pasatiempos,B2
+ser coleccionista de,B2
+pasarlo fenomenal,B2
+pasarlo en grande,B2
+pasarselo fenomenal,B2
+pasarselo en grande,B2
+desfile,B2
+muestra,B2
+presentación,B2
+acomodador,B2
+guardarropa,B2
+taquilla,B2
+butaca,B2
+sala de exposiciones,B2
+sala de cine,B2
+sala de conciertos,B2
+pista de baile,B2
+pista de una discoteca,B2
+pista del circo,B2
+función de teatro,B2
+función de circo,B2
+sesión de cine,B2
+espectáculo apto para todos los públicos,B2
+espectáculo apto para mayores de 18 años,B2
+espectáculo deportivo,B2
+representación teatral,B2
+festival de música,B2
+estreno,B2
+estrenar,B2
+inaugurar,B2
+montar una exposición,B2
+organizar una exposición,B2
+cancelar un espectáculo,B2
+campeonato,B2
+liga,B2
+instalaciones deportivas,B2
+palacio de deportes,B2
+estadio,B2
+aficionado,B2
+socio,B2
+fan,B2
+empate,B2
+victoria,B2
+triunfo,B2
+deporte de invierno,B2
+deporte de equipo,B2
+deporte de riesgo,B2
+deporte de competición,B2
+juegos olímpicos,B2
+juegos olímpicos JJ. OO.,B2
+olimpiada,B2
+Comité Olímpico Internacional,B2
+Comité Olímpico Internacional COI,B2
+entrenar,B2
+calentar,B2
+participar en el entrenamiento,B2
+sufrir una lesión,B2
+tener una lesión,B2
+hacerse una lesión,B2
+eliminar,B2
+vencer,B2
+acertar,B2
+fallar,B2
+ser de un equipo,B2
+hacerse socio de un club,B2
+hacerse socio de una asociación,B2
+hacerse socio de un club,B2
+hacerse socio de una asociación deportiva,B2
+clasificarse para la final,B2
+clasificarse para la eliminatoria,B2
+clasificarse para el campeonato,B2
+clasificarse para la semifinal,B2
+clasificarse para la eliminatoria,B2
+clasificarse para el campeonato,B2
+ser campeón,B2
+ser subcampeón,B2
+quedar campeón de liga,B2
+quedar campeón de copa,B2
+quedar campeón del mundo,B2
+quedar subcampeón de liga,B2
+quedar subcampeón de copa,B2
+quedar subcampeón del mundo,B2
+ganar la copa,B2
+ganar una medalla,B2
+conseguir la copa,B2
+conseguir una medalla,B2
+retirarse un deportista,B2
+juego de azar,B2
+juego de ingenio,B2
+juego limpio,B2
+juego sucio,B2
+rompecabezas,B2
+puzle,B2
+jugar una partida,B2
+tocarle el turno a alguien,B2
+barajar,B2
+repartir,B2
+sacar una carta,B2
+echar una carta,B2
+jugar al escondite,B2
+jugar a las canicas,B2
+jugar a la comba,B2
+montar en los columpios,B2
+montar en el tobogán,B2
+jugar a la lotería,B2
+hacer quinielas,B2
+hacer una apuesta,B2
+apostar,B2
+sacar una ficha,B2
+comer una ficha,B2
+avanzar con una ficha,B2
+tirar el dado,B2
+tirar los dados,B2
+seguir las reglas del juego,B2
+entender las reglas del juego,B2
+explicar las reglas del juego,B2
+saltarse las reglas del juego,B2
+hacer trampas,B2
+comunicación telefónica,B2
+comunicación audiovisual,B2
+comunicación escrita,B2
+comunicación radiofónica,B2
+rumor,B2
+dato,B2
+anécdota,B2
+comentario,B2
+comunicación fiable,B2
+comunicación oficial,B2
+comunicación extraoficial,B2
+comunicación de última hora,B2
+noticia fiable,B2
+noticia oficial,B2
+noticia extraoficial,B2
+noticia de última hora,B2
+comentar,B2
+comunicar,B2
+declarar,B2
+anunciar,B2
+opinar,B2
+mantener la comunicación,B2
+mantener el contacto,B2
+establecer la comunicación,B2
+establecer el contacto,B2
+comunicarse personalmente,B2
+comunicarse diariamente,B2
+comunicarse oralmente,B2
+comunicarse por escrito,B2
+formular una pregunta,B2
+formular una crítica,B2
+conocer un rumor,B2
+conocer un dato,B2
+enterarse de una noticia por casualidad,B2
+enterarse de una noticia casualmente,B2
+enterarse de una noticia por la prensa,B2
+carta de solicitud de trabajo,B2
+carta de reclamación,B2
+carta confidencial,B2
+carta privada,B2
+carta oficial,B2
+escribir una carta a mano,B2
+escribir una carta a máquina,B2
+escribir una carta a ordenador,B2
+certificar una carta,B2
+certificar un paquete,B2
+entregar una carta,B2
+entregar un telegrama,B2
+entregar un mensaje,B2
+entregar en mano,B2
+abrir la correspondencia,B2
+recibir la correspondencia,B2
+entregar la correspondencia,B2
+enviar la correspondencia,B2
+recoger la correspondencia,B2
+atención al cliente,B2
+información al cliente,B2
+servicio de atención al cliente,B2
+servicio de información al cliente,B2
+teléfono digital,B2
+teléfono analógico,B2
+recibo del teléfono,B2
+factura del teléfono,B2
+línea telefónica,B2
+línea de teléfono,B2
+red telefónica,B2
+red de teléfono,B2
+conexión telefónica,B2
+conexión de teléfono,B2
+compañía telefónica,B2
+compañía de teléfono,B2
+telefonear,B2
+cortar la línea,B2
+cortarse la comunicación,B2
+llamar a cobro revertido,B2
+hacer una llamada urbana,B2
+hacer una llamada local,B2
+hacer una llamada interurbana,B2
+hacer una llamada interprovincial,B2
+hacer una llamada internacional,B2
+hacer una llamada gratuita,B2
+dar de alta la línea,B2
+dar de baja la línea,B2
+dar de alta la línea telefónica,B2
+dar de baja la línea telefónica,B2
+tener tarifa plana,B2
+tener ADSL,B2
+contratar tarifa plana,B2
+contratar ADSL,B2
+tener la tarifa plana,B2
+tener ADSL,B2
+contratar la tarifa plana,B2
+contratar ADSL,B2
+tener un buen servicio,B2
+tener un mal servicio,B2
+dar un buen servicio,B2
+dar un mal servicio,B2
+titular,B2
+subtítulo,B2
+pie de foto,B2
+portada,B2
+primera página,B2
+crónica,B2
+crítica,B2
+carta al director,B2
+editor,B2
+redactor,B2
+redactor jefe,B2
+corresponsal,B2
+enviado especial,B2
+edición,B2
+redacción,B2
+artículo de opinión,B2
+artículo de fondo,B2
+periódico de la mañana,B2
+periódico de la tarde,B2
+prensa escrita,B2
+prensa rosa,B2
+prensa del corazón,B2
+prensa deportiva,B2
+prensa amarilla,B2
+prensa económica,B2
+prensa gratuita,B2
+libertad de prensa,B2
+libertad de expresión,B2
+censura,B2
+noticias de actualidad,B2
+suscribirse a un periódico,B2
+suscribirse a una revista,B2
+dar una rueda de prensa,B2
+audición,B2
+emisión,B2
+programa televisivo,B2
+programa radiofónico,B2
+oyente,B2
+telespectador,B2
+teleadicto,B2
+cámara,B2
+redactor,B2
+enviado especial,B2
+corresponsal,B2
+reportero,B2
+televisión por cable,B2
+televisión vía satélite,B2
+televisión digital,B2
+televisión analógica,B2
+medio audiovisual,B2
+medio periodístico,B2
+parte meteorológico,B2
+informativos,B2
+espacio publicitario,B2
+programación de calidad,B2
+programación cultural,B2
+programación para todos los públicos,B2
+programación de calidad,B2
+programación cultural,B2
+programación apta para todos los públicos,B2
+seguir un programa de televisión,B2
+seguir un programa de radio,B2
+grabar un programa de televisión,B2
+grabar un programa de radio,B2
+perderse un programa de televisión,B2
+perderse un programa de radio,B2
+zapear,B2
+equipo informático,B2
+servidor,B2
+proveedor,B2
+proveedor de acceso,B2
+proveedor de conexión,B2
+videoconferencia,B2
+audioconferencia,B2
+comunicación a través del ordenador,B2
+entrar en un enlace,B2
+acceder a un enlace,B2
+pinchar en un enlace,B2
+instalar un programa,B2
+instalar un antivirus,B2
+manejar un programa,B2
+manejar un antivirus,B2
+participar en una lista de distribución,B2
+inscribirse en una lista de distribución,B2
+apuntarse en una lista de distribución,B2
+comunicarse por correo electrónico,B2
+comunicarse por videoconferencia,B2
+entrar un virus,B2
+atacar un virus,B2
+eliminar un virus,B2
+albañilería,B2
+fontanería,B2
+carpintería,B2
+material de construcción,B2
+cemento,B2
+ladrillo,B2
+hacer una reforma,B2
+reformar,B2
+inmobiliaria,B2
+constructora,B2
+gastos de comunidad,B2
+gastos de portería,B2
+gastos de agua,B2
+vivir de alquiler,B2
+estar de alquiler,B2
+firmar una hipoteca,B2
+firmar un contrato,B2
+firmar una hipoteca,B2
+firmar un contrato de alquiler,B2
+dar de alta la luz,B2
+dar de alta el agua,B2
+dar de alta el teléfono,B2
+dar de alta el gas,B2
+dar de baja la luz,B2
+dar de baja el agua,B2
+dar de baja el teléfono,B2
+dar de baja el gas,B2
+residencia temporal,B2
+residencia permanente,B2
+residencia estival,B2
+vivienda,B2
+alojamiento,B2
+hogar,B2
+convivir,B2
+trasladarse a,B2
+ático,B2
+dúplex,B2
+buhardilla,B2
+casa de campo,B2
+segunda residencia,B2
+vivienda de alquiler,B2
+vivienda en propiedad,B2
+escalera de incendios,B2
+salida de emergencia,B2
+comunidad,B2
+comunidad de vecinos,B2
+administrador,B2
+conserje,B2
+buena distribución,B2
+mala distribución,B2
+bien orientado,B2
+mal orientado,B2
+orientado al norte,B2
+orientado al sur,B2
+acogedor,B2
+lujoso,B2
+espacioso,B2
+dar a la calle,B2
+dar a un patio,B2
+dar al jardín,B2
+escoba,B2
+recogedor,B2
+fregona,B2
+trapo,B2
+detergente,B2
+lavavajillas,B2
+suavizante,B2
+suciedad,B2
+limpieza,B2
+arreglar la casa,B2
+recoger la casa,B2
+quitar el polvo,B2
+dejar la casa recogida,B2
+dejar la casa limpia,B2
+tener la casa recogida,B2
+tener la casa limpia,B2
+dejar la cama hecha,B2
+dejar la mesa puesta,B2
+tener la cama hecha,B2
+tener la mesa puesta,B2
+recuerdo,B2
+adorno,B2
+ambiente cálido,B2
+ambiente íntimo,B2
+ambiente acogedor,B2
+ambiente fresco,B2
+iluminación directa,B2
+iluminación indirecta,B2
+iluminación suave,B2
+iluminación tenue,B2
+iluminación alegre,B2
+luz directa,B2
+luz indirecta,B2
+luz suave,B2
+luz tenue,B2
+luz alegre,B2
+amueblar una habitación,B2
+freidora,B2
+robot de cocina,B2
+exprimidor,B2
+picadora,B2
+batidora,B2
+timbre,B2
+bombilla,B2
+linterna,B2
+enchufe,B2
+interruptor,B2
+cable,B2
+estropearse un electrodoméstico,B2
+averiarse un electrodoméstico,B2
+repartidor,B2
+cartero comercial,B2
+envío,B2
+entrega,B2
+gastos de envío,B2
+empresa de mensajería,B2
+correo ordinario,B2
+correo postal,B2
+correo aéreo,B2
+carta certificada,B2
+carta urgente,B2
+giro postal,B2
+giro telegráfico,B2
+cheque postal,B2
+paquete postal,B2
+enviar contra reembolso,B2
+enviar con acuse de recibo,B2
+caja fuerte,B2
+ahorro,B2
+cobro,B2
+ingreso,B2
+pago,B2
+hipoteca,B2
+crédito,B2
+préstamo,B2
+talonario de cheques,B2
+accionista,B2
+inversor,B2
+ingresos periódicos,B2
+ingresos extra,B2
+ingresos elevados,B2
+cuenta corriente,B2
+ahorrar dinero,B2
+cobrar dinero,B2
+invertir dinero,B2
+pedir una hipoteca,B2
+pedir un crédito,B2
+pedir un préstamo,B2
+solicitar una hipoteca,B2
+solicitar un crédito,B2
+solicitar un préstamo,B2
+conceder una hipoteca,B2
+conceder un crédito,B2
+conceder un préstamo,B2
+pagar una hipoteca,B2
+pagar un crédito,B2
+pagar un préstamo,B2
+domiciliar un recibo,B2
+domiciliar un pago,B2
+hacer un ingreso,B2
+hacer una transferencia,B2
+hacer un ingreso,B2
+hacer una transferencia bancaria,B2
+ingresar dinero,B2
+retirar dinero,B2
+cobrar un cheque,B2
+firmar un cheque,B2
+compañía de seguros,B2
+cubrir un accidente,B2
+cubrir una prestación,B2
+policía municipal,B2
+policía de tráfico,B2
+inspector,B2
+agente,B2
+inspector de policía,B2
+agente de policía,B2
+comisario,B2
+seguridad,B2
+servicio de seguridad,B2
+sospechoso,B2
+secuestrador,B2
+banda de delincuentes,B2
+banda de criminales,B2
+vigilancia,B2
+protección,B2
+seguridad,B2
+seguridad ciudadana,B2
+delito,B2
+violación,B2
+atraco,B2
+asesinato,B2
+secuestro,B2
+pista,B2
+coartada,B2
+huella,B2
+prueba,B2
+medida de seguridad,B2
+retrato robot,B2
+poner una denuncia,B2
+denunciar,B2
+seguir una pista,B2
+encontrar una pista,B2
+detener a un sospechoso,B2
+detener a un delincuente,B2
+interrogar a un sospechoso,B2
+interrogar a un delincuente,B2
+confesar,B2
+asistente social,B2
+trabajador social,B2
+monitor de actividades,B2
+adaptación,B2
+integración,B2
+marginación,B2
+menores,B2
+inmigrantes,B2
+personas mayores,B2
+personas discapacitadas,B2
+personas sin recursos,B2
+personas mayores,B2
+personas discapacitadas,B2
+personas sin recursos económicos,B2
+personas sin trabajo,B2
+personas sin hogar,B2
+personas en paro,B2
+marginación,B2
+desempleo,B2
+vejez,B2
+inmigración,B2
+tercera edad,B2
+oficina del INEM,B2
+apoyar,B2
+cooperar,B2
+colaborar,B2
+perder el empleo,B2
+perder el empleo de forma temporal,B2
+perder el empleo indefinida,B2
+cotizar a la Seguridad Social,B2
+cobrar el subsidio de desempleo,B2
+farola,B2
+contenedor de basuras,B2
+contenedor de vidrio,B2
+contenedor de papel,B2
+contenedor de plástico,B2
+compañía eléctrica,B2
+compañía telefónica,B2
+compañía de gas,B2
+compañía de agua,B2
+servicio de limpieza,B2
+servicio de recogida de basura,B2
+recoger la basura,B2
+barrer las calles,B2
+regar los jardines,B2
+regar las zonas verdes,B2
+llegar la factura del agua,B2
+llegar la factura de la luz,B2
+llegar el recibo del agua,B2
+llegar el recibo de la luz,B2
+pagar la factura del agua,B2
+pagar la factura de la luz,B2
+pagar el recibo del agua,B2
+pagar el recibo de la luz,B2
+deber la factura del agua,B2
+deber la factura de la luz,B2
+deber el recibo del agua,B2
+deber el recibo de la luz,B2
+cobrar la factura del agua,B2
+cobrar la factura de la luz,B2
+cobrar el recibo del agua,B2
+cobrar el recibo de la luz,B2
+establecimiento,B2
+comercio,B2
+cadena,B2
+artículo,B2
+producto,B2
+mercancía,B2
+distribución,B2
+reparto,B2
+clientela,B2
+consumidor,B2
+comercial,B2
+etiqueta,B2
+alarma,B2
+horario comercial,B2
+horario continuo,B2
+dar la vez,B2
+pedir la vez,B2
+poner una reclamación,B2
+pedir el libro de reclamaciones,B2
+echar un vistazo,B2
+hacerse una idea,B2
+ver escaparates,B2
+perder clientes,B2
+ganar clientes,B2
+complementos,B2
+conjunto,B2
+albornoz,B2
+bata,B2
+camisón,B2
+delantal,B2
+calzador,B2
+aguja,B2
+alfiler,B2
+hilo,B2
+cremallera,B2
+percha,B2
+ropa de temporada,B2
+ropa de calle,B2
+ropa de cama,B2
+ropa de montaña,B2
+zapatos abiertos,B2
+zapatos cerrados,B2
+zapatos de fiesta,B2
+estampado,B2
+cosido,B2
+descosido,B2
+arrugado,B2
+doblado,B2
+encoger,B2
+darse de sí,B2
+limpiar en seco,B2
+llevar al tinte,B2
+quedar ajustado,B2
+quedar apretado,B2
+quedar amplio,B2
+quedar flojo,B2
+apretar los zapatos,B2
+apretar la cintura,B2
+estar pasado de moda,B2
+producto natural,B2
+producto alimenticio,B2
+alimento básico,B2
+alimento nutritivo,B2
+alimento pesada,B2
+alimento ligera,B2
+alimento sin conservantes,B2
+alimento sin colorantes,B2
+comida pesada,B2
+comida ligera,B2
+comida sin conservantes,B2
+comida sin colorantes,B2
+bajo en calorías,B2
+bajo en sal,B2
+bajo en azúcar,B2
+rico en calorías,B2
+rico en vitaminas,B2
+rico en proteínas,B2
+rico en fibra,B2
+rico en calcio,B2
+llevar el pedido,B2
+hacer el pedido,B2
+estar en buenas condiciones,B2
+estar en malas condiciones,B2
+factura,B2
+cheque,B2
+recibo,B2
+presupuesto,B2
+condiciones de financiación,B2
+condiciones de pago,B2
+pagar a plazos,B2
+pagar al contado,B2
+dejar una señal,B2
+hacer una factura,B2
+hacer un recibo,B2
+hacer un presupuesto,B2
+pedir una factura,B2
+pedir un recibo,B2
+pedir un presupuesto,B2
+salir gratis,B2
+ser gratis,B2
+dos por uno,B2
+dos por el precio de uno,B2
+tener tarjeta de cliente,B2
+tener tarjeta de fidelidad,B2
+solicitar tarjeta de cliente,B2
+solicitar tarjeta de fidelidad,B2
+diagnóstico,B2
+tratamiento,B2
+faringitis,B2
+diabetes,B2
+bronquitis,B2
+neumonía,B2
+depresión,B2
+tener la tensión alta,B2
+tener la tensión baja,B2
+tener el colesterol alto,B2
+tener azúcar,B2
+ataque al corazón,B2
+ataque epiléptico,B2
+ataque de ansiedad,B2
+enfermedad crónica,B2
+enfermedad leve,B2
+enfermedad grave,B2
+enfermedad terminal,B2
+enfermedad mental,B2
+enfermedad contagiosa,B2
+enfermedad hereditaria,B2
+atender a un enfermo,B2
+contagiar,B2
+contagiarse,B2
+transmitir,B2
+curativo,B2
+medicinal,B2
+terapéutico,B2
+perjudicial,B2
+beneficioso,B2
+diagnosticar,B2
+cuidarse,B2
+reponer fuerzas,B2
+padecer una enfermedad,B2
+sufrir una enfermedad,B2
+pasar una enfermedad,B2
+coger un virus,B2
+coger un catarro,B2
+contagiar un virus,B2
+contagiar un catarro,B2
+dar un infarto,B2
+dar una parálisis,B2
+dar una reacción alérgica,B2
+dar un desmayo,B2
+sufrir un infarto,B2
+sufrir una parálisis,B2
+sufrir una reacción alérgica,B2
+sufrir un desmayo,B2
+estar en coma,B2
+estar a régimen,B2
+estar a dieta,B2
+tener una salud de hierro,B2
+tener una salud a prueba de bomba,B2
+hacerse un empaste,B2
+perder el apetito,B2
+perder las ganas de comer,B2
+escayolar,B2
+vendar,B2
+herida grave,B2
+herida profunda,B2
+herida superficial,B2
+herida leve,B2
+tener una cicatriz,B2
+quedar una cicatriz,B2
+curar una herida,B2
+curarse una herida,B2
+tener un tirón,B2
+tener una contractura,B2
+tener un tirón,B2
+tener una contractura muscular,B2
+hacerse un esguince,B2
+torcerse un tobillo,B2
+dar puntos,B2
+poner una escayola,B2
+poner una venda,B2
+poner un esparadrapo,B2
+poner una gasa,B2
+ganar peso,B2
+perder peso,B2
+síntoma,B2
+cansancio,B2
+debilidad,B2
+mareos,B2
+náuseas,B2
+fiebre alta,B2
+fiebre baja,B2
+vomitar,B2
+marearse,B2
+sentir cansancio,B2
+sentir dolor,B2
+estar deprimido,B2
+estar decaído,B2
+tener ansiedad,B2
+tener escalofríos,B2
+tener mareos,B2
+tener náuseas,B2
+tener malestar,B2
+tener molestias,B2
+especialista,B2
+ambulatorio,B2
+consultorio,B2
+sanatorio,B2
+radiografía,B2
+escáner,B2
+TAC,B2
+transfusión de sangre,B2
+ecografía,B2
+chequeo,B2
+consulta del médico,B2
+consulta del dentista,B2
+consulta del ginecólogo,B2
+asistencia médica,B2
+asistencia domiciliaria,B2
+pediatra,B2
+otorrino,B2
+otorrinolaringólogo,B2
+traumatólogo,B2
+anestesista,B2
+trabajador social,B2
+asistente social,B2
+botiquín,B2
+camilla,B2
+quirófano,B2
+cirugía,B2
+revisión ginecológica,B2
+revisión dental,B2
+revisión anual,B2
+hospitalizar,B2
+operar,B2
+anestesiar,B2
+curar,B2
+tomar la tensión,B2
+tomarse la tensión,B2
+inyección,B2
+pomada,B2
+calmante,B2
+supositorio,B2
+analgésico,B2
+antiinflamatorio,B2
+prospecto,B2
+contraindicaciones,B2
+efectos secundarios,B2
+síntomas,B2
+gasa,B2
+venda,B2
+esparadrapo,B2
+medicamento genérico,B2
+medicamento homeopático,B2
+medicamento contraindicado,B2
+dosis mínima,B2
+dosis diaria,B2
+dosis recomendada,B2
+vacunarse,B2
+recetar,B2
+esencia,B2
+sales de baño,B2
+hilo dental,B2
+seda dental,B2
+suciedad,B2
+tijeras,B2
+lima,B2
+cortaúñas,B2
+bañera de hidromasaje,B2
+jacuzzi,B2
+cabina de ducha,B2
+pelo graso,B2
+pelo sano,B2
+pelo brillante,B2
+dientes blancos,B2
+dientes amarillentos,B2
+dientes sanos,B2
+darse una ducha caliente,B2
+darse una ducha fría,B2
+darse una ducha rápida,B2
+darse un baño caliente,B2
+darse un baño frío,B2
+darse un baño relajante,B2
+darse un baño de espuma,B2
+cortarse las uñas,B2
+limarse las uñas,B2
+cepillarse las uñas,B2
+enredarse el pelo,B2
+recogerse el pelo,B2
+cepillarse el pelo,B2
+desenredarse el pelo,B2
+recogerse el pelo,B2
+cepillarse el pelo,B2
+melena,B2
+maquillaje,B2
+colorete,B2
+sombra de ojos,B2
+rímel,B2
+laca,B2
+gel fijador,B2
+gomina,B2
+masaje,B2
+hidromasaje,B2
+sauna,B2
+estética,B2
+cosmética,B2
+cosmética natural,B2
+productos cosméticos,B2
+salón de belleza,B2
+centro de belleza,B2
+balneario,B2
+manchas,B2
+granos,B2
+crema hidratante,B2
+crema suavizante,B2
+crema limpiadora,B2
+crema nutritiva,B2
+crema solar,B2
+ponerse guapo,B2
+cambiar de peinado,B2
+cambiar de aspecto,B2
+mantenerse bien,B2
+mantenerse mal,B2
+mantenerse joven,B2
+conservarse bien,B2
+conservarse mal,B2
+conservarse joven,B2
+darse un masaje terapéutico,B2
+darse un masaje relajante,B2
+recortarse el bigote,B2
+recortarse la barba,B2
+registrar las maletas,B2
+registrar el equipaje,B2
+inspeccionar las maletas,B2
+inspeccionar el equipaje,B2
+extraviar las maletas,B2
+viaje de novios,B2
+viaje de placer,B2
+viaje de recreo,B2
+viaje oficial,B2
+turismo rural,B2
+turismo de aventura,B2
+turismo cultural,B2
+turismo de montaña,B2
+ruta,B2
+trayecto,B2
+itinerario,B2
+recorrer el océano,B2
+recorrer el país,B2
+atravesar el océano,B2
+atravesar el país,B2
+cruzar el océano,B2
+cruzar el país,B2
+viajar en clase turista,B2
+viajar en clase preferente,B2
+viajar en primera,B2
+viajar en clase turista,B2
+viajar en clase preferente,B2
+viajar en primera clase,B2
+dar la vuelta al mundo,B2
+pasar el verano,B2
+montar un viaje,B2
+organizar un viaje,B2
+cubo,B2
+pala,B2
+rastrillo,B2
+flotador,B2
+zona nudista,B2
+puesto de socorro,B2
+paseo marítimo,B2
+bandera verde,B2
+bandera amarilla,B2
+bandera roja,B2
+darse un baño,B2
+ir de pesca,B2
+jugar a las palas,B2
+jugar al vóley,B2
+estar el agua fría,B2
+estar el agua caliente,B2
+estar el agua buena,B2
+estar el agua limpia,B2
+estar el agua sucia,B2
+estar el agua transparente,B2
+quemarse la espalda,B2
+quemarse los hombros,B2
+monte,B2
+colina,B2
+anorak,B2
+escalar,B2
+hacer alpinismo,B2
+hacer descenso de barrancos,B2
+albergue,B2
+bungaló,B2
+parador,B2
+vestíbulo,B2
+consigna,B2
+cama supletoria,B2
+colchoneta,B2
+acampar,B2
+ir de acampada,B2
+hacer una acampada,B2
+registrarse,B2
+alojarse en un hotel,B2
+alojarse en un apartamento,B2
+dar a,B2
+tener vistas,B2
+alquilar una cabaña,B2
+alquilar un bungaló,B2
+alquilar un apartamento,B2
+alojarse en una cabaña,B2
+alojarse en un bungaló,B2
+alojarse en un apartamento,B2
+poner una reclamación,B2
+pedir el libro de reclamaciones,B2
+montar la tienda de campaña,B2
+recoger la tienda de campaña,B2
+desmontar la tienda de campaña,B2
+recoger la tienda de campaña,B2
+autovía,B2
+carretera nacional,B2
+carretera comarcal,B2
+carretera principal,B2
+carretera secundaria,B2
+autopista de peaje,B2
+curva,B2
+cruce,B2
+rotonda,B2
+bache,B2
+área de descanso,B2
+puesto de socorro,B2
+peaje,B2
+autobús urbano,B2
+autobús interurbano,B2
+IBERIA,B2
+RENFE,B2
+RENFE Red Nacional de Ferrocarriles Españoles,B2
+haber tráfico,B2
+haber circulación,B2
+haber movimiento,B2
+haber mucho tráfico,B2
+haber mucho circulación,B2
+haber mucho movimiento,B2
+haber poco tráfico,B2
+haber poco circulación,B2
+haber poco movimiento,B2
+cruzar la frontera,B2
+pasar la aduana,B2
+declarar,B2
+pasar un control de carreteras,B2
+pasar un control de aduana,B2
+pasajero,B2
+peatón,B2
+coche de carreras,B2
+coche oficial,B2
+coche particular,B2
+matrícula,B2
+número de matrícula,B2
+compartimento,B2
+vagón,B2
+arrancar,B2
+acelerar,B2
+frenar,B2
+adelantar,B2
+poner el intermitente,B2
+tocar el claxon,B2
+circular en coche,B2
+llevar una moto,B2
+manejar,B2
+barco de pasajeros,B2
+barco de vela,B2
+barco pesquero,B2
+ferry,B2
+tripulación,B2
+pasajero,B2
+marítimo,B2
+hacer escala,B2
+embarcar,B2
+desembarcar,B2
+hacer un crucero,B2
+tripulación,B2
+pasajero,B2
+puente aéreo,B2
+transporte aéreo,B2
+accidente aéreo,B2
+vuelo chárter,B2
+vuelo directo,B2
+vuelo con escalas,B2
+vuelo nacional,B2
+vuelo de líneas regulares,B2
+vuelo chárter,B2
+vuelo directo,B2
+vuelo con escalas,B2
+vuelo internacional,B2
+vuelo de líneas regulares,B2
+pilotar,B2
+anunciar un vuelo,B2
+cancelar un vuelo,B2
+retrasar un vuelo,B2
+señal,B2
+señal de tráfico,B2
+carné por puntos,B2
+normas de circulación,B2
+permiso de circulación,B2
+casco homologado,B2
+cinturón homologado,B2
+silla homologado,B2
+chaleco homologado,B2
+ceda el paso,B2
+prohibido aparcar,B2
+girar,B2
+dirección obligatoria,B2
+dirección prohibida,B2
+curva peligroso,B2
+cruce peligroso,B2
+ponerse el cinturón de seguridad,B2
+ponerse el casco,B2
+aparcar en zona azul,B2
+aparcar en zona verde,B2
+aparcar en zona prohibida,B2
+renovar el carné de conducir,B2
+sacar el carné de conducir,B2
+renovar el carné de conducir,B2
+sacarse el carné de conducir,B2
+renovar el permiso de circulación,B2
+reducir la velocidad,B2
+aumentar la velocidad,B2
+poner una multa,B2
+pagar una multa,B2
+ceder el paso,B2
+adelantar,B2
+perder el control,B2
+pinchar,B2
+pincharse una rueda,B2
+tener un pinchazo,B2
+quedarse sin gasolina,B2
+quedarse sin frenos,B2
+producirse un accidente,B2
+dar un golpe,B2
+darse un golpe,B2
+chocar contra algo,B2
+salirse de la carretera,B2
+taller,B2
+grúa,B2
+ayuda en carretera,B2
+rueda de repuesto,B2
+arreglo,B2
+reparación,B2
+revisión anual,B2
+revisión periódica,B2
+revisión a fondo,B2
+cambiar el aceite,B2
+cambiar una rueda,B2
+cambiar una pieza,B2
+arreglar un pinchazo,B2
+tener garantía,B2
+indemnización,B2
+pagar un seguro,B2
+contratar un seguro,B2
+tener el coche asegurado,B2
+tener un seguro,B2
+gasto,B2
+ahorros,B2
+ingresos,B2
+ganancias,B2
+pérdidas,B2
+moneda extranjera,B2
+cheque de viaje,B2
+préstamo,B2
+garantía,B2
+recursos,B2
+recursos económicos,B2
+crisis financiera,B2
+enviar dinero,B2
+mandar dinero,B2
+prestar dinero,B2
+dejar dinero,B2
+pagar a plazos,B2
+pagar al contado,B2
+hacer un giro,B2
+hacer una transferencia,B2
+hacer un giro postal,B2
+hacer una transferencia,B2
+bolsa,B2
+subir la bolsa,B2
+bajar la bolsa,B2
+acción,B2
+participación,B2
+accionista,B2
+tipo de interés,B2
+tipo de interés fijo,B2
+tipo de interés variable,B2
+inversión,B2
+ahorro,B2
+invertir,B2
+invertir en,B2
+ahorrar,B2
+tener un interés del + [número cardinal] + por ciento,B2
+Cámara de Comercio,B2
+Ministerio de Hacienda,B2
+hacer la declaración de la renta,B2
+presentar la declaración de la renta,B2
+inspector de hacienda,B2
+inspección,B2
+denunciar el delito fiscal,B2
+investigar el delito fiscal,B2
+luchar contra el delito fiscal,B2
+consumo,B2
+demanda,B2
+competencia,B2
+sociedad de consumo,B2
+comerciante,B2
+comercialización,B2
+artículo,B2
+producto,B2
+pedido,B2
+mercancía,B2
+distribución,B2
+reparto,B2
+representante,B2
+comercial,B2
+comercio exterior,B2
+comercio interior,B2
+comercio internacional,B2
+comercio legal,B2
+comercio justo,B2
+comercio exterior,B2
+comercio interior,B2
+comercio internacional,B2
+comercio ilegal,B2
+comercio justo,B2
+factura,B2
+recibo,B2
+obtener un descuento,B2
+negociar,B2
+hacer una compra,B2
+hacer una venta,B2
+hacer una inversión,B2
+tener una deuda,B2
+pagar a plazos,B2
+pagar al contado,B2
+mercancía nacional,B2
+mercancía internacional,B2
+mercancía extranjera,B2
+entrada de mercancías,B2
+salida de mercancías,B2
+comercio de mercancías,B2
+circulación de mercancías,B2
+importación de mercancías,B2
+exportación de mercancías,B2
+transporte de mercancías,B2
+campaña publicitaria,B2
+lanzamiento de un producto,B2
+estudio de mercado,B2
+propaganda,B2
+buzoneo,B2
+pancarta,B2
+pegatina,B2
+anunciar,B2
+avisar,B2
+comunicar,B2
+publicar,B2
+hacer publicidad,B2
+estar de oferta,B2
+estar de promoción,B2
+accionista,B2
+socio,B2
+acción,B2
+participación,B2
+asociación,B2
+gestión,B2
+dirección,B2
+empleo,B2
+cargo,B2
+ocupación,B2
+plantilla,B2
+plantilla de trabajadores,B2
+jefe de personal,B2
+taller,B2
+nave industrial,B2
+estar de baja,B2
+estar en crisis,B2
+estar en crecimiento,B2
+actividad industrial,B2
+desarrollo industrial,B2
+crecimiento industrial,B2
+carpintería,B2
+fontanería,B2
+cristalería,B2
+elaboración,B2
+explotación,B2
+carbón,B2
+petróleo,B2
+recursos naturales,B2
+revolución industrial,B2
+jefe de obra,B2
+técnico,B2
+constructor,B2
+aparejador,B2
+grúa,B2
+ladrillo,B2
+cemento,B2
+industria textil,B2
+industria siderúrgica,B2
+energía nuclear,B2
+energía solar,B2
+energía eléctrica,B2
+campesino,B2
+tractor,B2
+ganado,B2
+finca,B2
+huerta,B2
+huerto,B2
+pescado fresco,B2
+pescado congelado,B2
+pescado azul,B2
+pescado blanco,B2
+pescado de mar,B2
+pescado de río,B2
+físico,B2
+químico,B2
+matemático,B2
+astrónomo,B2
+investigación,B2
+investigador,B2
+ley,B2
+principio,B2
+fórmula,B2
+símbolo,B2
+teoría,B2
+capacidad de análisis,B2
+método de análisis,B2
+técnica de análisis,B2
+nuevas tecnologías,B2
+avance científico,B2
+avance tecnológico,B2
+objeto de estudio,B2
+objeto de análisis,B2
+método de estudio,B2
+método de análisis,B2
+técnica de estudio,B2
+técnica de análisis,B2
+área de estudio,B2
+área de conocimiento,B2
+analizar,B2
+investigar,B2
+desarrollar una técnica,B2
+introducir una técnica,B2
+demostrar una hipótesis,B2
+confirmar una hipótesis,B2
+basarse en una investigación,B2
+basarse en un estudio,B2
+ser objeto de estudio,B2
+ser objeto de análisis,B2
+especie,B2
+molécula,B2
+neurona,B2
+célula,B2
+virus,B2
+genético,B2
+biológico,B2
+cálculo,B2
+álgebra,B2
+estadística,B2
+número par,B2
+número impar,B2
+número decimal,B2
+cifra,B2
+línea recta,B2
+línea diagonal,B2
+línea horizontal,B2
+línea vertical,B2
+fórmula,B2
+fórmula matemática,B2
+ángulo,B2
+ángulo recto,B2
+calcular una cantidad con precisión,B2
+calcular una cantidad mentalmente,B2
+calcular un porcentaje con precisión,B2
+calcular un porcentaje mentalmente,B2
+procesador de textos,B2
+base de datos,B2
+hoja de cálculo,B2
+disco duro,B2
+monitor,B2
+altavoz,B2
+escáner,B2
+módem,B2
+pantalla plana,B2
+inteligencia artificial,B2
+enlace,B2
+escritorio,B2
+cursor,B2
+pinchar,B2
+hacer doble clic,B2
+arrastrar,B2
+cambiar el tipo de letra,B2
+cambiar el tamaño de letra,B2
+grabar un archivo,B2
+maximizar una ventana,B2
+maximizar un documento,B2
+minimizar una ventana,B2
+minimizar un documento,B2
+configurar,B2
+cambiar la configuración,B2
+el ordenador,B2
+reiniciar el ordenador,B2
+bloquearse el ordenador,B2
+átomo,B2
+molécula,B2
+célula,B2
+aluminio,B2
+oxígeno,B2
+nitrógeno,B2
+formulación,B2
+fórmula química,B2
+microscopio,B2
+termómetro,B2
+dureza,B2
+elasticidad,B2
+fragilidad,B2
+igualdad,B2
+desigualdad,B2
+norma,B2
+regla,B2
+poder,B2
+participación,B2
+rebeldía,B2
+miembro,B2
+socio,B2
+clase social,B2
+clase trabajadora,B2
+minoría étnica,B2
+minoría social,B2
+minoría religiosa,B2
+mayoría étnica,B2
+mayoría social,B2
+mayoría religiosa,B2
+derechos humanos,B2
+derechos básicos,B2
+derechos constitucionales,B2
+derechos del ciudadano,B2
+común,B2
+comunitario,B2
+civil,B2
+estatal,B2
+convivir,B2
+cooperar,B2
+integrar,B2
+integrarse,B2
+ser de clase alta,B2
+ser de clase media,B2
+ser de clase baja,B2
+protección,B2
+perdón,B2
+compasión,B2
+convivencia,B2
+cooperación,B2
+integración social,B2
+marginación,B2
+discriminación,B2
+explotación,B2
+tolerancia,B2
+hipocresía,B2
+arrogancia,B2
+agresividad,B2
+buenas maneras,B2
+buenos modales,B2
+justicia social,B2
+injusticia social,B2
+distribución de la riqueza,B2
+diputado,B2
+senador,B2
+parlamentario,B2
+diplomático,B2
+dictador,B2
+candidato,B2
+líder,B2
+votante,B2
+electorado,B2
+referéndum,B2
+papeleta,B2
+urna,B2
+voto,B2
+voto en blanco,B2
+voto nulo,B2
+abstención,B2
+jornada de reflexión,B2
+colegio electoral,B2
+calendario electoral,B2
+campaña electoral,B2
+compromiso electoral,B2
+discurso electoral,B2
+periodo electoral,B2
+propaganda electoral,B2
+programa electoral,B2
+mesa electoral,B2
+poder judicial,B2
+poder legislativo,B2
+poder político,B2
+gobierno nacionalista,B2
+gobierno independiente,B2
+gobierno central,B2
+gobierno democrático,B2
+gobierno progresista,B2
+gobierno liberal,B2
+gobierno totalitario,B2
+comunismo,B2
+fascismo,B2
+anarquía,B2
+marxismo,B2
+socialismo,B2
+hacer campaña,B2
+votar,B2
+abstenerse,B2
+elecciones generales,B2
+elecciones autonómicas,B2
+elecciones municipales,B2
+elecciones locales,B2
+celebrar elecciones,B2
+convocar elecciones,B2
+ganar elecciones,B2
+perder elecciones,B2
+presentarse a elecciones,B2
+celebrar las elecciones,B2
+convocar las elecciones,B2
+ganar las elecciones,B2
+perder las elecciones,B2
+presentarse a las elecciones,B2
+pertenecer a un partido político,B2
+ser de un partido político,B2
+dar un golpe de Estado,B2
+secuestrador,B2
+criminal,B2
+sospechoso,B2
+testigo,B2
+víctima,B2
+secuestro,B2
+asesinato,B2
+atentado,B2
+inocente,B2
+culpable,B2
+justicia,B2
+tribunal,B2
+juicio,B2
+sentencia,B2
+fiscal,B2
+acusado,B2
+jurado,B2
+jurado popular,B2
+coartada,B2
+pista,B2
+prueba,B2
+Tribunal,B2
+Tribunal Constitucional,B2
+Tribunal Supremo,B2
+derecho civil,B2
+derecho penal,B2
+mafia,B2
+banda organizada,B2
+banda terrorista,B2
+banda armada,B2
+banda de delincuentes,B2
+red de prostitución,B2
+red de tráfico de armas,B2
+red de falsificación de documentos,B2
+separación de poderes,B2
+abogado defensor,B2
+abogado criminalista,B2
+abogado laboralista,B2
+condenar a [cardinal] años de cárcel,B2
+condenar a pena de muerte,B2
+secuestrar a alguien,B2
+asesinar a alguien,B2
+atentar contra alguien,B2
+aprobar una ley,B2
+reformar una ley,B2
+obedecer una ley,B2
+ser justo,B2
+ser injusto,B2
+ganar un juicio,B2
+perder un juicio,B2
+cometer un delito de agresión,B2
+cometer un delito de malos tratos,B2
+cometer un delito de tráfico de drogas,B2
+detener por un delito de agresión,B2
+detener por un delito de malos tratos,B2
+detener por un delito de tráfico de drogas,B2
+estar acusado de un delito de agresión,B2
+estar acusado de un delito de malos tratos,B2
+estar acusado de un delito de tráfico de drogas,B2
+batalla,B2
+fusil,B2
+cañón,B2
+bala,B2
+espada,B2
+enemigo,B2
+aliado,B2
+submarino,B2
+tanque,B2
+servicio militar,B2
+servicio militar obligatorio,B2
+ejército profesional,B2
+tratado de paz,B2
+disparar,B2
+luchar,B2
+defender,B2
+atacar,B2
+enfrentarse a,B2
+declarar la guerra,B2
+firmar la paz,B2
+obra representativa,B2
+obra conocida,B2
+obra representativa,B2
+obra desconocida,B2
+creación,B2
+creatividad,B2
+inspiración,B2
+estética,B2
+belleza,B2
+pureza,B2
+armonía,B2
+colorido,B2
+equilibrio,B2
+sensibilidad,B2
+romanticismo,B2
+clasicismo,B2
+cubismo,B2
+artes plásticas,B2
+artes escénicas,B2
+crítico de arte,B2
+crítico de cine,B2
+arte contemporáneo,B2
+arte abstracto,B2
+arte gótico,B2
+arte oriental,B2
+estilo arquitectónico,B2
+estilo literario,B2
+estilo propio,B2
+estilo definido,B2
+estilo particular,B2
+arte futurista,B2
+arte modernista,B2
+arte impresionista,B2
+autor futurista,B2
+autor modernista,B2
+autor impresionista,B2
+estilo futurista,B2
+estilo modernista,B2
+estilo impresionista,B2
+componer un poema,B2
+componer una canción,B2
+festival,B2
+coreografía,B2
+acto,B2
+escena,B2
+danza clásica,B2
+danza contemporánea,B2
+compañía de danza clásica,B2
+compañía de danza contemporánea,B2
+clarinete,B2
+saxofón,B2
+trompeta,B2
+contrabajo,B2
+violonchelo,B2
+batería,B2
+ritmo,B2
+compás,B2
+armonía,B2
+música de cámara,B2
+música barroca,B2
+música tradicional,B2
+música popular,B2
+música religiosa,B2
+sinfonía,B2
+himno,B2
+nota,B2
+nota musical,B2
+do,B2
+re,B2
+mi,B2
+fa,B2
+sol,B2
+la,B2
+si,B2
+componer,B2
+dirigir,B2
+grabar,B2
+actuar,B2
+pirámide,B2
+fachada,B2
+columna,B2
+feria de arte,B2
+muestra de arte,B2
+estilo arquitectónico,B2
+estilo escultórico,B2
+estilo pictórico,B2
+obra arquitectónico,B2
+obra escultórico,B2
+obra pictórico,B2
+conjunto arquitectónico,B2
+conjunto escultórico,B2
+conjunto pictórico,B2
+arte románico,B2
+arte gótico,B2
+arte barroco,B2
+arte impresionista,B2
+arte expresionista,B2
+arte cubista,B2
+arte realista,B2
+arte abstracto,B2
+estilo románico,B2
+estilo gótico,B2
+estilo barroco,B2
+estilo impresionista,B2
+estilo expresionista,B2
+estilo cubista,B2
+estilo realista,B2
+estilo abstracto,B2
+estatua de bronce,B2
+estatua de mármol,B2
+estatua de barro,B2
+escultura de bronce,B2
+escultura de mármol,B2
+escultura de barro,B2
+ciudad monumental,B2
+conjunto monumental,B2
+zona monumental,B2
+hacer un esquema,B2
+hacer un plano,B2
+hacer un proyecto,B2
+dibujar un esquema,B2
+dibujar un plano,B2
+dibujar un proyecto,B2
+pintar al óleo,B2
+pintar a la acuarela,B2
+desarrollar un estilo,B2
+imitar un estilo,B2
+editor,B2
+autor,B2
+autor teatral,B2
+narrador,B2
+historiador,B2
+prosa,B2
+verso,B2
+narración,B2
+monólogo,B2
+argumento,B2
+tema,B2
+relato,B2
+leyenda,B2
+diario,B2
+literatura contemporánea,B2
+literatura medieval,B2
+literatura romántica,B2
+literatura realista,B2
+obra literario,B2
+texto literario,B2
+concurso literario,B2
+revista literario,B2
+premio literario,B2
+estilo elegante,B2
+estilo cuidado,B2
+estilo ágil,B2
+estilo directo,B2
+novela rosa,B2
+novela negra,B2
+narrar,B2
+describir,B2
+relatar,B2
+componer,B2
+rimar,B2
+recitar,B2
+editar un libro,B2
+imprimir un libro,B2
+publicar un libro,B2
+distribuir un libro,B2
+agotarse un libro,B2
+interpretar un texto,B2
+analizar un texto,B2
+resumir un texto,B2
+citar textualmente,B2
+copiar textualmente,B2
+fotografía artística,B2
+fotografía abstracta,B2
+fotografía científica,B2
+fotografía de estudio,B2
+retrato,B2
+primer plano,B2
+fondo,B2
+enfocar,B2
+apretar el botón,B2
+disparar,B2
+revelar una foto,B2
+revelar un carrete,B2
+revelar una fotografía,B2
+revelar un carrete,B2
+enmarcar,B2
+hacer una ampliación,B2
+función,B2
+sesión,B2
+taquilla,B2
+productor,B2
+guionista,B2
+cámara,B2
+producción,B2
+distribución,B2
+estreno,B2
+largometraje,B2
+corto,B2
+corto metraje,B2
+argumento,B2
+guión,B2
+tema,B2
+iluminación,B2
+decorado,B2
+banda sonora,B2
+efectos especiales,B2
+vestuario,B2
+maquillaje,B2
+escena,B2
+secuencia,B2
+cámara lenta,B2
+plano general,B2
+plano de fondo,B2
+actuación,B2
+interpretación,B2
+tragedia,B2
+tragicomedia,B2
+obra teatral,B2
+representación teatral,B2
+temporada teatral,B2
+estreno cinematográfico,B2
+guión cinematográfico,B2
+principal,B2
+secundario,B2
+hacer un papel,B2
+interpretar un papel,B2
+rodar una película,B2
+echar una película,B2
+estrenar una película,B2
+representar una obra teatral,B2
+escenificar una obra teatral,B2
+poner en escena una obra teatral,B2
+rabino,B2
+imán,B2
+cura,B2
+párroco,B2
+monja,B2
+religión mayoritaria,B2
+religión minoritaria,B2
+religión monoteísta,B2
+religión politeísta,B2
+catolicismo,B2
+protestantismo,B2
+hinduismo,B2
+cristianismo,B2
+islamismo,B2
+budismo,B2
+ateísmo,B2
+paraíso,B2
+purgatorio,B2
+alma,B2
+espíritu,B2
+Antiguo Testamento,B2
+Nuevo Testamento,B2
+Sagradas Escrituras,B2
+Evangelio,B2
+oración,B2
+procesión,B2
+pecado,B2
+pecador,B2
+secta religiosa,B2
+secta satánica,B2
+agnóstico,B2
+practicante,B2
+no practicante,B2
+laico,B2
+bendecir,B2
+confesar,B2
+decir misa,B2
+celebrar misa,B2
+celebrar un bautizo,B2
+tener fe,B2
+pecar,B2
+hacer un milagro,B2
+confesarse,B2
+comulgar,B2
+hacer penitencia,B2
+hacer un sacrificio,B2
+hacer una promesa,B2
+filosofía,B2
+filósofo,B2
+razón,B2
+pensamiento,B2
+conocimiento,B2
+idea,B2
+filosófico,B2
+ideológico,B2
+metafísico,B2
+razonar,B2
+reflexionar,B2
+astronomía,B2
+astrología,B2
+signo del zodiaco,B2
+Capricornio,B2
+Leo,B2
+Cáncer,B2
+constelación,B2
+galaxia,B2
+cometa,B2
+eclipse total,B2
+eclipse parcial,B2
+eclipse de sol,B2
+eclipse de luna,B2
+luna llena,B2
+Saturno,B2
+Mercurio,B2
+Venus,B2
+Osa Mayor,B2
+Osa Menor,B2
+salir el sol,B2
+ponerse el sol,B2
+estación espacial,B2
+lanzamiento espacial,B2
+girar,B2
+girar un planeta,B2
+brillar,B2
+apagarse,B2
+brillar una estrella,B2
+apagarse una estrella,B2
+área,B2
+altitud,B2
+profundidad,B2
+ecuador,B2
+trópico de Cáncer,B2
+trópico de Capricornio,B2
+Extremo Oriente,B2
+Oriente Próximo,B2
+Oriente Medio,B2
+superpoblación,B2
+índice de población,B2
+índice de natalidad,B2
+índice de mortalidad,B2
+crecimiento de la población,B2
+crecimiento de la natalidad,B2
+crecimiento de la mortalidad,B2
+aumento de la población,B2
+aumento de la natalidad,B2
+aumento de la mortalidad,B2
+disminución de la población,B2
+disminución de la natalidad,B2
+disminución de la mortalidad,B2
+sector de población,B2
+densidad de población,B2
+habitantes por metro cuadrado,B2
+zona poblada,B2
+región poblada,B2
+zona superpoblada,B2
+región superpoblada,B2
+población joven,B2
+población adulta,B2
+población activa,B2
+población urbana,B2
+emigración,B2
+inmigración,B2
+territorial,B2
+continental,B2
+provincial,B2
+local,B2
+urbano,B2
+rural,B2
+ecuatorial,B2
+tropical,B2
+estar situado,B2
+limitar al norte,B2
+limitar al sur,B2
+limitar al este,B2
+limitar al oeste,B2
+horizonte,B2
+cabo,B2
+golfo,B2
+estrecho,B2
+pantano,B2
+laguna,B2
+cascada,B2
+cordillera,B2
+llanura,B2
+monte,B2
+orilla del río,B2
+orilla del mar,B2
+nacimiento de un río,B2
+corriente de un río,B2
+caudal de un río,B2
+paisaje natural,B2
+paisaje urbano,B2
+paisaje industrial,B2
+paisaje tropical,B2
+paisaje volcánico,B2
+paisaje desértico,B2
+paisaje rocoso,B2
+costero,B2
+insular,B2
+peninsular,B2
+subir la marea,B2
+bajar la marea,B2
+peatón,B2
+acera,B2
+farola,B2
+señal,B2
+papelera,B2
+contenedor de basuras,B2
+contenedor de papel,B2
+contenedor de vidrio,B2
+edificación,B2
+construcción,B2
+urbanización,B2
+alrededores,B2
+ciudadano,B2
+ciudadanos,B2
+vecindario,B2
+basurero municipal,B2
+estadio municipal,B2
+policía municipal,B2
+violencia callejero,B2
+actividad callejero,B2
+arte callejero,B2
+zona verde,B2
+zona ajardinada,B2
+haber obras,B2
+estar en obras,B2
+granja,B2
+corral,B2
+ganadero,B2
+agrícola,B2
+forestal,B2
+semilla,B2
+cosecha,B2
+sembrar,B2
+temporal,B2
+chaparrón,B2
+trueno,B2
+relámpago,B2
+borrasca,B2
+anticiclón,B2
+previsión meteorológico,B2
+parte meteorológico,B2
+clima suave,B2
+clima continental,B2
+clima mediterráneo,B2
+clima tropical,B2
+clima lluvioso,B2
+clima caluroso,B2
+clima templado,B2
+clima desértico,B2
+tiempo primaveral,B2
+tiempo veraniego,B2
+tiempo otoñal,B2
+tiempo invernal,B2
+tiempo variable,B2
+tiempo estable,B2
+temperatura primaveral,B2
+temperatura veraniego,B2
+temperatura otoñal,B2
+temperatura invernal,B2
+temperatura variable,B2
+temperatura estable,B2
+tiempo primaveral,B2
+tiempo veraniego,B2
+tiempo otoñal,B2
+tiempo invernal,B2
+tiempo variable,B2
+tiempo inestable,B2
+temperatura primaveral,B2
+temperatura veraniego,B2
+temperatura otoñal,B2
+temperatura invernal,B2
+temperatura variable,B2
+temperatura inestable,B2
+hacer un día estupendo,B2
+hacer un día horrible,B2
+caer una nevada,B2
+caer una helada,B2
+caer una tormenta,B2
+caer un chaparrón,B2
+soplar,B2
+soplar el viento,B2
+helar,B2
+granizar,B2
+animal terrestre,B2
+animal volador,B2
+animal marino,B2
+especie autóctona,B2
+especie protegida,B2
+especie en extinción,B2
+especie autóctona,B2
+especie protegida,B2
+especie en peligro de extinción,B2
+clínica veterinaria,B2
+perro policía,B2
+perro de caza,B2
+perro callejero,B2
+gato callejero,B2
+pollo de corral,B2
+mascota,B2
+dócil,B2
+manso,B2
+noble,B2
+feroz,B2
+bravo,B2
+poner un huevo,B2
+mamar,B2
+alga,B2
+seta,B2
+arbusto,B2
+pétalo,B2
+savia,B2
+polen,B2
+semilla,B2
+fruto,B2
+planta carnívora,B2
+planta trepadora,B2
+planta acuática,B2
+planta silvestre,B2
+planta venenosa,B2
+florero,B2
+maceta,B2
+jarrón,B2
+jardinera,B2
+flor natural,B2
+flor artificial,B2
+flor seca,B2
+flor silvestre,B2
+flor exótica,B2
+flor delicada,B2
+ramillete de flores,B2
+centro de flores,B2
+corona de flores,B2
+guirnalda de flores,B2
+dar flor,B2
+dar fruto,B2
+brotar,B2
+florecer,B2
+madurar,B2
+trasplantar,B2
+talar un árbol,B2
+deshojar una flor,B2
+ecosistema,B2
+biosfera,B2
+sequía,B2
+marea negra,B2
+desertización,B2
+maremoto,B2
+inundación,B2
+catástrofe natural,B2
+desastre natural,B2
+problema medioambiental,B2
+efecto invernadero,B2
+desarrollo sostenible,B2
+ahorro energético,B2
+energía nuclear,B2
+energía eólica,B2
+energía solar,B2
+energía eléctrica,B2
+biomasa,B2
+zona protegido,B2
+zona virgen,B2
+área protegido,B2
+área virgen,B2
+litoral protegido,B2
+litoral virgen,B2
+impacto medioambiental,B2
+residuos atómicos,B2
+residuos radiactivos,B2
+residuos tóxicos,B2
+alimentos transgénicos,B2
+agricultura ecológica,B2
+exponerse a la radiación solar,B2
+protegerse de la radiación solar,B2
+inundar,B2
+inundarse,B2
+incendiar,B2
+incendiarse,B2
+extinguir,B2
+extinguirse,B2
+aprovechar los recursos naturales,B2
+agotarse los recursos naturales,B2
+preservar el medio ambiente,B2

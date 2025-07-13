@@ -1,0 +1,543 @@
+---
+title: "Composition analysis: lexical accuracy"
+author: "Author 1"
+date: "2023-10-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+Hello, reader! Thank you for your interest in this work.
+
+Let me guide you through the steps taken to conduct the statistical analyses reported on our paper.
+
+## Preparation
+
+**Loading libraries**
+
+Here are the libraries that we are going to employ. If you have not already, remember to install them via `install.packages()` first:
+
+```{r load libraries, message=FALSE}
+library(tidyverse)
+library(areaplot)
+library(writexl)
+library(ggthemes)
+library(RColorBrewer)
+library(ggsankey)
+library(caret)
+```
+
+**Loading data sets**
+
+Next, we are going to load the data sets obtained after computing the measures needed for our model with Python.
+
+```{r load files, message=FALSE}
+# ==== 1. ORIGINAL LEXICAL ERROR CORPUS ====
+original_err_per_doc <- read_csv('Data/errors_template.csv')
+
+# ==== 2. LEXICAL ERROR TYPE AND FEEDBACK FORMAT CLASSIFICATION ====
+err_per_doc <- read_csv('Data/error_classification.csv')
+
+# ==== 3. ERROR ANALYSIS PER PARTICIPANT ====
+errors_AFJ1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_AFJ1.csv')
+errors_AMN1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_AMN1.csv')
+errors_API1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_API1.csv')
+errors_ARE1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_ARE1.csv')
+errors_ASA1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_ASA1.csv')
+errors_AZC1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_AZC1.csv')
+errors_CJK1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_CJK1.csv')
+errors_EKE1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_EKE1.csv')
+errors_FLL1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_FLL1.csv')
+errors_ICE1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_ICE1.csv')
+errors_IDE1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_IDE1.csv')
+errors_IDG1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_IDG1.csv')
+errors_IDO1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_IDO1.csv')
+errors_IHG1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_IHG1.csv')
+errors_IHL1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_IHL1.csv')
+errors_IHL2 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_IHL2.csv')
+errors_JTM1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_JTM1.csv')
+errors_PBZ1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_PBZ1.csv')
+errors_RPE1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_RPE1.csv')
+errors_RPI1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_RPI1.csv')
+errors_RZA1 <- read_csv('Data/error_analysis_per_participant/errors_and_solutions_RZA1.csv')
+
+# ==== 4. COMPOSITION ANALYSIS ====
+stats_per_doc <- read_csv('Data/docs_analysis.csv')
+```
+
+**Original error corpus partition**
+
+```{r error corpus partition, message=FALSE}
+# ==== 1. LEXICAL ERROR CORPUS PARTITION ====
+
+# 1.1. Clean the data frame removing useless rows.
+original_err_per_doc <- subset(original_err_per_doc, !is.na(error))
+original_err_per_doc <- original_err_per_doc[
+  !original_err_per_doc$error=="repetición léxica",]
+
+# 1.2. Create error indices to ensure a proper partition of the corpus.
+errID <- c(1:1868)
+original_err_per_doc$errID <- errID
+
+
+set.seed(211)
+
+original_err_per_doc_training <- original_err_per_doc %>%
+  group_by(composition_number) %>%
+  slice_sample(prop=0.05)
+
+original_err_per_doc_training_2 <- original_err_per_doc %>%
+  group_by(composition_number) %>%
+  slice_sample(prop=0.3)
+
+original_err_per_doc_training_2 <- anti_join(
+  original_err_per_doc_training_2, original_err_per_doc_training, by = "errID")
+
+original_err_per_doc_testing <- anti_join(
+  original_err_per_doc, original_err_per_doc_training, by = "errID") %>%
+  anti_join(., original_err_per_doc_training_2, by = "errID")
+
+write_xlsx(original_err_per_doc_training, "Data/5_per_cent_selection.xlsx")
+
+write_xlsx(original_err_per_doc_training_2, "Data/28_per_cent_selection.xlsx")
+
+write_xlsx(original_err_per_doc_testing, "Data/67_per_cent_selection.xlsx")
+```
+
+**Cleaning data sets**
+
+```{r clean data sets, message=FALSE}
+# ==== 2 & 3. ERROR ANALYSIS AND CLASSIFICATION PER PARTICIPANT ====
+
+# 2 & 3.1. Combine all classified error data sets into a single one.
+
+classified_errors <- rbind(errors_AFJ1, errors_AMN1, errors_API1,
+                           errors_ARE1, errors_ASA1, errors_AZC1,
+                           errors_CJK1, errors_EKE1, errors_FLL1,
+                           errors_ICE1, errors_IDE1, errors_IDG1,
+                           errors_IDO1, errors_IHG1, errors_IHL1,
+                           errors_IHL2, errors_JTM1, errors_PBZ1,
+                           errors_RPE1, errors_RPI1, errors_RZA1)
+
+# 2 & 3.1. Combine the error analysis and error classification data sets.
+
+full_errors <- full_join(err_per_doc, classified_errors, by = "error")
+
+# 2 & 3.1.1. Remove duplicates
+rows_to_remove <- c(66, 68, 192, 201)
+full_errors <- full_errors[-rows_to_remove,]
+full_errors <- full_errors %>% filter(error_type != "ort.")
+
+# ==== 4. COMPOSITION ANALYSIS ====
+
+# 4.1. Combine the new error data set with the composition analysis one in order to normalize error rates.
+
+# 4.1.1. Rename composition analysis columns
+stats_per_doc <- stats_per_doc %>%
+  rename(TextFile = `Text file`,
+         CountA1 = `Count A1`,
+         CountA2 = `Count A2`,
+         CountB1 = `Count B1`,
+         CountB2 = `Count B2`,
+         CountC1 = `Count C1`,
+         CountC2 = `Count C2`,
+         FreqA1 = `Freq A1`,
+         FreqA2 = `Freq A2`,
+         FreqB1 = `Freq B1`,
+         FreqB2 = `Freq B2`,
+         FreqC1 = `Freq C1`,
+         FreqC2 = `Freq C2`,
+         TfidfA1 = `TFIDF A1`,
+         TfidfA2 = `TFIDF A2`,
+         TfidfB1 = `TFIDF B1`,
+         TfidfB2 = `TFIDF B2`,
+         TfidfC1 = `TFIDF C1`,
+         TfidfC2 = `TFIDF C2`)
+
+# 4.1.2. Add column for composition number
+text_num <- rep(1:4, times = 21)
+stats_per_doc$TextNum <- text_num
+stats_per_doc$participant_ID <- as.factor(stats_per_doc$participant_ID)
+
+# 4.1.3. Combine the data sets
+full_errors <- full_join(full_errors, stats_per_doc, by = "text_ID")
+
+write.csv(full_errors, file = "Data/full_measures.csv", fileEncoding = "UTF-8")
+
+# 4.1.4. Remove useless columns
+columns_to_remove <- c(6, 7, 8, 10, 13, 16:18, 20:670)
+full_errors <- full_errors[, -columns_to_remove]
+
+# 4.1.5. Rename columns
+full_errors <- full_errors %>%
+  rename(participant_ID = participant_ID.x,
+         word_count = Total)
+```
+
+**Calculating error rates**
+
+```{r calculate error rates, message=FALSE}
+# ==== 1. CALCULATE ERROR AND WCF RATES ====
+
+full_err_rate <- full_errors %>%
+  group_by(text_ID) %>%
+  mutate(error_count = n()) %>%
+  mutate(error_rate = error_count / word_count)
+
+full_err_rate <- full_err_rate %>%
+  group_by(text_ID, error_type) %>%
+  mutate(error_count_per_type = n()) %>%
+  mutate(error_rate_per_type = error_count_per_type / word_count)
+
+full_err_rate <- full_err_rate %>%
+  mutate(error_type = case_when(
+    error_type == "ana." ~ "Analysis",
+    error_type == "creac." ~ "Creation",
+    error_type == "det." ~ "Determination",
+    error_type == "elip." ~ "Ellipsis",
+    error_type == "esp." ~ "Specification",
+    error_type == "exce." ~ "Excess word(s)",
+    error_type == "gen." ~ "Gender",
+    error_type == "núm." ~ "Number",
+    error_type == "ord." ~ "Order",
+    error_type == "pron." ~ "Pronoun",
+    error_type == "reg." ~ "Government",
+    error_type == "sint." ~ "Synthesis",
+    error_type == "sust." ~ "Substitution"))
+
+# Calculate WCF rates and shift them to the next writing task
+
+full_fb_rate <- full_err_rate %>%
+  group_by(text_ID, fb_type) %>%
+  mutate(fb_count_per_type = n()) %>%
+  mutate(fb_rate_per_type = fb_count_per_type / word_count)
+
+full_fb_rate <- full_fb_rate %>%
+  mutate(text_ID = as.numeric(str_extract(text_ID, "(?<=_)\\d+$"))  # Extracts the number after the underscore
+  )
+
+full_fb_rate <- full_fb_rate %>%
+  dplyr::select(participant_ID, text_ID, fb_type, fb_rate_per_type) %>% distinct()
+
+full_fb_rate <- full_fb_rate %>%
+  mutate(text_ID = text_ID + 1)
+
+full_fb_rate <- full_fb_rate %>%
+  mutate(text_ID = paste0(participant_ID, "_", as.character(text_ID)))
+
+new_rows <- expand.grid(participant_ID = unique(full_fb_rate$participant_ID),
+                        fb_type = unique(full_fb_rate$fb_type)) %>%
+  mutate(text_ID = paste0(participant_ID, "_1"), fb_rate_per_type = 0)
+
+full_fb_rate <- bind_rows(full_fb_rate, new_rows)
+
+full_fb_rate <- full_fb_rate %>%
+  filter(!str_detect(text_ID, "_5$")) %>%
+  arrange(participant_ID, text_ID, fb_type)
+
+full_err_rate <- left_join(full_err_rate, full_fb_rate, by = c("participant_ID", "text_ID", "fb_type"))
+
+full_err_rate <- full_err_rate %>%
+  mutate(fb_rate_per_type = if_else(is.na(fb_rate_per_type), 0, fb_rate_per_type))
+  
+
+write.csv(full_err_rate, file = "Data/full_error_measures.csv")
+
+```
+
+**Data visualization**
+
+```{r plot error rates, message=FALSE, fig.width=12, fig.height=6}
+# ==== 1. ERROR RATES ====
+
+err_rates_1 <- full_err_rate %>%
+  filter(TextNum == 1)
+err_rates_2 <- full_err_rate %>%
+  filter(TextNum == 2)
+err_rates_3 <- full_err_rate %>%
+  filter(TextNum == 3)
+err_rates_4 <- full_err_rate %>%
+  filter(TextNum == 4)
+
+mean_err_values_1 <- err_rates_1 %>%
+  group_by(error_type) %>%
+  summarize(mean_value = mean(error_rate_per_type))
+mean_err_values_2 <- err_rates_2 %>%
+  group_by(error_type) %>%
+  summarize(mean_value = mean(error_rate_per_type))
+mean_err_values_3 <- err_rates_3 %>%
+  group_by(error_type) %>%
+  summarize(mean_value = mean(error_rate_per_type))
+mean_err_values_4 <- err_rates_4 %>%
+  group_by(error_type) %>%
+  summarize(mean_value = mean(error_rate_per_type))
+
+mean_err_values <- bind_rows(mean_err_values_1,
+                             mean_err_values_2,
+                             mean_err_values_3,
+                             mean_err_values_4)
+
+mean_err_values$TextNum <- rep(1:4, each = 13)
+
+orderedLevels <- c("Creation", "Substitution", "Synthesis", "Analysis",
+                   "Ellipsis", "Excess word(s)", "Specification", "Order", "Pronoun",
+                   "Government", "Determination", "Gender", "Number")
+mean_err_values$error_type <- factor(mean_err_values$error_type,
+                                     levels = orderedLevels)
+
+custom_palette <- c("darkorchid",
+                    "deeppink", "red3", "darkslategrey",
+                    "darkturquoise", "#d17b88", "#fface4",
+                    "deepskyblue2", "darkorange1", "darkgoldenrod1",
+                    "#c8c7d6", "#a2d2ff", "burlywood4")
+
+plotErrRates <- ggplot(data = mean_err_values,
+                       aes(x = TextNum, y = mean_value,
+                            group = error_type,
+                            color = error_type,
+                           linetype = error_type,
+                           shape = error_type)) +
+  scale_linetype_manual(values = c("Creation" = "solid",
+                                   "Substitution" = "solid",
+                                   "Synthesis" = "solid",
+                                   "Analysis" = "solid",
+                                   "Ellipsis" = "F1",
+                                   "Excess word(s)" = "F1",
+                                   "Specification" = "longdash",
+                                   "Order" = "dotdash",
+                                   "Pronoun" = "dotdash",
+                                   "Government" = "longdash",
+                                   "Determination" = "dotdash",
+                                   "Gender" = "dotted",
+                                   "Number" = "dotted")) +
+  scale_color_manual(values = custom_palette) +
+  geom_line(linewidth = 0.5, alpha = 0.6) +
+  geom_point(size = 2) +
+  scale_shape_manual(values = c(16, 17, 18, 19, 20, 21,
+                                22, 23, 24, 25, 15, 14,
+                                13, 12)) +
+  labs(title = "Overall lexical error rates across texts (N=21)\n",
+       x = "\nText",
+       y = "Mean number of errors per word\n",
+       color = "Error type") +
+  guides(linetype = guide_legend(title = "Error type"),
+         shape = guide_legend(title = "Error type")) +
+  theme_classic()
+
+plotErrRates
+
+
+# ==== 2. REPEATED ERRORS AND APPLIED CORRECTIONS ====
+
+# ---- 2.1. Sankey diagram ----
+
+# 2.1.1. Prepare relevant information
+
+#   2.1.1.1. Create "outcome" variable from "error_reps," "pass_solution_reps," and "fail_solution_reps".
+outcome_df <- full_errors %>%
+  filter(error_reps > 0 | pass_solution_reps > 0 | fail_solution_reps > 0) %>%
+  dplyr::select(error, error_reps, pass_solution_reps, fail_solution_reps) %>%
+  mutate(
+    outcome = case_when(
+      error_reps > 0 & pass_solution_reps == 0 & fail_solution_reps == 0 ~ "R",
+      error_reps >= pass_solution_reps & pass_solution_reps > 0 & fail_solution_reps == 0 ~ "RF",
+      error_reps >= fail_solution_reps & pass_solution_reps == 0 & fail_solution_reps > 0 ~ "RBF",
+      error_reps >= pass_solution_reps & pass_solution_reps >= fail_solution_reps & pass_solution_reps > 0 & fail_solution_reps > 0 ~ "RFBF",
+      error_reps >= fail_solution_reps & fail_solution_reps >= pass_solution_reps & pass_solution_reps > 0 & fail_solution_reps > 0 ~ "RBFF",
+      error_reps == 0 & pass_solution_reps >= 0 & fail_solution_reps == 0 ~ "F",
+      error_reps <= pass_solution_reps & error_reps > 0 & fail_solution_reps == 0 ~ "FR",
+      fail_solution_reps <= pass_solution_reps & error_reps == 0 & fail_solution_reps > 0 ~ "FBF",
+      error_reps <= fail_solution_reps & fail_solution_reps <= pass_solution_reps & error_reps > 0 & fail_solution_reps > 0 ~ "FBFR",
+      fail_solution_reps <= error_reps & error_reps <= pass_solution_reps & error_reps > 0 & fail_solution_reps > 0 ~ "FRBF",
+      error_reps == 0 & pass_solution_reps == 0 & fail_solution_reps > 0 ~ "BF",
+      error_reps <= fail_solution_reps & error_reps > 0 & pass_solution_reps == 0 ~ "BFR",
+      pass_solution_reps <= fail_solution_reps & error_reps == 0 & pass_solution_reps > 0 ~ "BFF",
+      error_reps <= pass_solution_reps & pass_solution_reps <= fail_solution_reps & error_reps > 0 & pass_solution_reps > 0 ~ "BFFR",
+      pass_solution_reps <= error_reps & error_reps <= fail_solution_reps & error_reps > 0 & pass_solution_reps > 0 ~ "BFRF",
+      TRUE ~ NA_character_
+    )
+  )
+
+#   2.1.1.2. Create the outcome data frame.
+outcome_df <- outcome_df %>%
+  mutate(
+    outcome = case_when(
+      outcome == "BF" ~ "Fixed inadequately",
+      outcome == "F" ~ "Fixed",
+      outcome == "FBF" ~ "Fixed inadequately",
+      outcome == "FBFR" ~ "Both fixed and repeated",
+      outcome == "FR" ~ "Both fixed and repeated",
+      outcome == "FRBF" ~ "Both fixed and repeated",
+      outcome == "R" ~ "Repeated",
+      outcome == "RBF" ~ "Repeated",
+      outcome == "RF" ~ "Both fixed and repeated",
+      outcome == "RFBF" ~ "Both fixed and repeated"
+    )
+  )
+
+outcome_df <- outcome_df %>%
+  dplyr::select(error, outcome)
+
+#   2.1.1.3. Create the error type and feedback type data frame and join it with the outcome one.
+sankey_df <- full_errors %>%
+  filter(error_reps > 0 | pass_solution_reps > 0 | fail_solution_reps > 0) %>%
+  dplyr::select(error, error_type, fb_type) %>%
+  mutate(error_type = case_when(
+    error_type == "ana." ~ "Analysis",
+    error_type == "creac." ~ "Creation",
+    error_type == "det." ~ "Determination",
+    error_type == "elip." ~ "Ellipsis",
+    error_type == "esp." ~ "Specification",
+    error_type == "exce." ~ "Excedent",
+    error_type == "gen." ~ "Gender",
+    error_type == "núm." ~ "Number",
+    error_type == "ord." ~ "Order",
+    error_type == "pron." ~ "Pronoun",
+    error_type == "reg." ~ "Government",
+    error_type == "sint." ~ "Synthesis",
+    error_type == "sust." ~ "Substitution")) %>%
+  mutate(fb_type = case_when(
+    fb_type == "D.N.M" ~ "Direct non-metalinguistic WCF",
+    fb_type == "D.M." ~ "Direct metalinguistic WCF",
+    fb_type == "I.L." ~ "Located indirect WCF",
+    fb_type == "I.M." ~ "Indirect metalinguistic WCF",
+    fb_type == "R" ~ "Reformulation",
+    fb_type == "None" ~ "No WCF"))
+
+sankey_df <- left_join(sankey_df, outcome_df, by = "error")
+
+sankey_df <- sankey_df %>%
+  rename("Error type" = error_type,
+         "Feedback format provided" = fb_type,
+         "Outcome of the error" = outcome)
+
+sankey_df$`Feedback format provided` <- as.factor(sankey_df$`Feedback format provided`)
+sankey_df$`Error type` <- as.factor(sankey_df$`Error type`)
+sankey_df$`Outcome of the error` <- as.factor(sankey_df$`Outcome of the error`)
+
+set.seed(17)
+up.sankey_df <- upSample(sankey_df[,-3],
+                         sankey_df$`Feedback format provided`,
+                         yname="Feedback format provided")
+
+up.sankey_df$`Feedback format provided` <- as.character(up.sankey_df$`Feedback format provided`)
+up.sankey_df$`Error type` <- as.character(up.sankey_df$`Error type`)
+up.sankey_df$`Outcome of the error` <- as.character(up.sankey_df$`Outcome of the error`)
+
+# 2.1.2. Create Sankey data frame
+up.sankey_df <- up.sankey_df %>%
+  make_long(`Error type`, `Feedback format provided`, `Outcome of the error`)
+
+# 2.1.6. Create a Sankey diagram
+sankey <- ggplot(up.sankey_df,
+                 aes(x = x,
+                     next_x = next_x,
+                     node = node,
+                     next_node = next_node,
+                     fill = factor(node),
+                     label = node)) +
+  geom_sankey(flow.alpha = 0.5, node.color = 1) +
+  geom_sankey_label(size = 3, color = 1, fill = "white") +
+  scale_fill_viridis_d() +
+  theme_sankey(base_size = 16) +
+  theme(legend.position = "none") +
+  labs(x = NULL)
+
+sankey
+
+# ---- 2.2. Bubble chart ----
+
+# 2.2.1. Prepare the data set
+bubble_df <- full_join(full_err_rate, stats_per_doc, by = "text_ID")
+bubble_df <- full_join(bubble_df, outcome_df, by = "error")
+bubble_df <- bubble_df %>% dplyr::select(-participant_ID.y, -TextNum.y)
+bubble_df <- bubble_df %>% rename(participant_ID = participant_ID.x,
+                                  TextNum = TextNum.x)
+bubble_df <- bubble_df %>%
+  mutate(fb_type = case_when(
+    fb_type == "D.N.M" ~ "Direct non-metalinguistic WCF",
+    fb_type == "D.M." ~ "Direct metalinguistic WCF",
+    fb_type == "I.L." ~ "Located indirect WCF",
+    fb_type == "I.M." ~ "Indirect metalinguistic WCF",
+    fb_type == "R" ~ "Reformulation",
+    fb_type == "None" ~ "No WCF"))
+bubble_df <- bubble_df %>% filter(!is.na(outcome))
+bubble_df$TextNum <- as.factor(bubble_df$TextNum)
+
+outcome_order <- c("Fixed", "Fixed inadequately", "Both fixed and repeated", "Repeated")
+bubble_df$outcome <- factor(bubble_df$outcome, levels = outcome_order)
+
+write.csv(bubble_df, file = "Data/tracked_error_measures.csv")
+
+# 2.2.2. Plot the bubble chart
+bubble <- ggplot(bubble_df, aes(x = error_rate_per_type, y = mtld,
+                                shape = outcome, color = fb_type,
+                                size = TextNum)) +
+  geom_point(alpha = 0.5) +
+  scale_size_manual(values = c(1, 2, 3)) +
+  scale_shape_manual(values = c(3, 1, 0, 4)) +
+  scale_color_manual(values = c("turquoise3", "red3", "black",
+                                "mediumpurple1", "hotpink1", "royalblue2")) +
+  labs(x = "\nAccuracy (mean number of errors of the same type per word)",
+       y = "Complexity (MTLD)\n") +
+  labs(size = "Text number",
+       shape = "Outcome of the error",
+       color = "Type of WCF provided") +
+  theme_classic()
+
+bubble
+
+
+# AMN1
+
+#full_errors_AMN1 <- full_errors[full_errors$participant_ID=="AMN1",]
+#AMN1_error_counts <- table(full_errors_AMN1$error_type)
+#print(AMN1_error_counts)
+#AMN1_error_fb <- table(full_errors_AMN1$fb_type)
+#print(AMN1_error_fb)
+
+#AMN1_fixed_errors <- (full_errors_AMN1[full_errors_AMN1$pass_solution_reps > 0 ,])
+#AMN1_fixed_error_counts <- table(AMN1_fixed_errors$error_type)
+#AMN1_fixed_error_fb <- table(AMN1_fixed_errors$fb_type)
+#print(AMN1_fixed_error_counts)
+#print(AMN1_fixed_error_fb)
+#AMN1_badly_fixed_errors <- (full_errors_AMN1[full_errors_AMN1$fail_solution_reps > 0 ,])
+#AMN1_repeated_errors <- (full_errors_AMN1[full_errors_AMN1$error_reps > 0 ,])
+#print(AMN1_repeated_error_counts)
+#AMN1_repeated_error_counts <- table(AMN1_repeated_errors$error_type)
+
+# ICE1
+
+#full_errors_ICE1 <- full_errors[full_errors$participant_ID=="ICE1",]
+#ICE1_error_counts <- table(full_errors_ICE1$error_type)
+#print(ICE1_error_counts)
+#ICE1_error_fb <- table(full_errors_ICE1$fb_type)
+#print(ICE1_error_fb)
+
+#ICE1_fixed_errors <- na.omit(full_errors_ICE1[full_errors_ICE1$pass_solution_reps > 0 ,])
+#ICE1_fixed_error_counts <- table(ICE1_fixed_errors$error_type)
+#print(ICE1_fixed_error_counts)
+#ICE1_fixed_error_fb <- table(ICE1_fixed_errors$fb_type)
+#print(ICE1_fixed_error_fb)
+#ICE1_badly_fixed_errors <- na.omit(full_errors_ICE1[full_errors_ICE1$fail_solution_reps > 0 ,])
+#ICE1_repeated_errors <- na.omit(full_errors_ICE1[full_errors_ICE1$error_reps > 0 ,])
+
+# ARE1
+
+#full_errors_ARE1 <- full_errors[full_errors$participant_ID=="ARE1",]
+#ARE1_error_counts <- table(full_errors_ARE1$error_type)
+#print(ARE1_error_counts)
+#ARE1_error_fb <- table(full_errors_ARE1$fb_type)
+#print(ARE1_error_fb)
+
+#ARE1_fixed_errors <- full_errors_ARE1[full_errors_ARE1$pass_solution_reps > 0 ,]
+#ARE1_fixed_error_counts <- table(ARE1_fixed_errors$error_type)
+#print(ARE1_fixed_error_counts)
+#ARE1_fixed_error_fb <- table(ARE1_fixed_errors$fb_type)
+#print(ARE1_fixed_error_fb)
+#ARE1_badly_fixed_errors <- full_errors_ARE1[full_errors_ARE1$fail_solution_reps > 0 ,]
+#ARE1_repeated_errors <- full_errors_ARE1[full_errors_ARE1$error_reps > 0 ,]
+```

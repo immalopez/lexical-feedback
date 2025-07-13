@@ -1,0 +1,22 @@
+env/bin/python main.py find-errors-solutions --group AFJ1 | tee output/find_errors_solutions_AFJ1.log &
+env/bin/python main.py find-errors-solutions --group AMN1 | tee output/find_errors_solutions_AMN1.log &
+env/bin/python main.py find-errors-solutions --group API1 | tee output/find_errors_solutions_API1.log &
+env/bin/python main.py find-errors-solutions --group ARE1 | tee output/find_errors_solutions_ARE1.log &
+env/bin/python main.py find-errors-solutions --group ASA1 | tee output/find_errors_solutions_ASA1.log &
+env/bin/python main.py find-errors-solutions --group AZC1 | tee output/find_errors_solutions_AZC1.log &
+env/bin/python main.py find-errors-solutions --group CJK1 | tee output/find_errors_solutions_CJK1.log &
+env/bin/python main.py find-errors-solutions --group EKE1 | tee output/find_errors_solutions_EKE1.log &
+env/bin/python main.py find-errors-solutions --group FLL1 | tee output/find_errors_solutions_FLL1.log &
+env/bin/python main.py find-errors-solutions --group ICE1 | tee output/find_errors_solutions_ICE1.log &
+env/bin/python main.py find-errors-solutions --group IDE1 | tee output/find_errors_solutions_IDE1.log &
+env/bin/python main.py find-errors-solutions --group IDG1 | tee output/find_errors_solutions_IDG1.log &
+env/bin/python main.py find-errors-solutions --group IDO1 | tee output/find_errors_solutions_IDO1.log &
+env/bin/python main.py find-errors-solutions --group IHG1 | tee output/find_errors_solutions_IHG1.log &
+env/bin/python main.py find-errors-solutions --group IHL1 | tee output/find_errors_solutions_IHL1.log &
+env/bin/python main.py find-errors-solutions --group IHL2 | tee output/find_errors_solutions_IHL2.log &
+env/bin/python main.py find-errors-solutions --group JTM1 | tee output/find_errors_solutions_JTM1.log &
+env/bin/python main.py find-errors-solutions --group PBZ1 | tee output/find_errors_solutions_PBZ1.log &
+env/bin/python main.py find-errors-solutions --group RPE1 | tee output/find_errors_solutions_RPE1.log &
+env/bin/python main.py find-errors-solutions --group RPI1 | tee output/find_errors_solutions_RPI1.log &
+env/bin/python main.py find-errors-solutions --group RZA1 | tee output/find_errors_solutions_RZA1.log &
+wait

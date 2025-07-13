@@ -1,0 +1,202 @@
+fb_1_pos:
+  color: "#1B63A5"
+  tokens:
+    - clear
+    - clear
+    - concise
+    - focused
+    - may work after self-correction
+    - promotes reflection
+    - simple
+    - useful
+    - variety of errors corrected
+
+fb_1_neg:
+  color: "#96C3DC"
+  tokens:
+    - already provides the correction
+    - does not indicate the type of error made
+    - does not indicate the type of error made
+    - does not indicate the type of error made
+    - lacks examples
+    - lacks explanations
+    - lacks explanations
+    - lacks explanations
+    - lacks explanations
+    - lacks explanations
+    - lacks explanations
+    - lacks pointers to additional material
+    - non-extrapolable
+
+fb_2_pos:
+  color: "#2C9321"
+  tokens:
+    - does not require a 2nd round of feedback
+    - error identification
+    - includes examples
+    - simple
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+    - useful for complex mistakes
+
+fb_2_neg:
+  color: "#A4DB77"
+  tokens:
+    - too much work for the teacher
+    - too much information
+    - too much information
+    - too much information
+
+fb_3_pos:
+  color: "#D90017"
+  tokens:
+    - may work with basic mistakes
+    - may work with basic mistakes
+    - promotes reflection
+    - promotes reflection
+    - promotes reflection
+    - promotes reflection
+
+fb_3_neg:
+  color: "#F88587"
+  tokens:
+    - confusing
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks explanations
+    - requires a 2nd round of feedback
+    - suggestive
+    - too difficult
+    - too difficult
+    - too difficult
+    - too difficult
+    - too difficult
+    - too much work for very little reward
+    - too much work for very little reward
+    - too much work for very little reward
+
+fb_4_pos:
+  color: "#FC6908"
+  tokens:
+    - clear
+    - promotes reflection
+    - promotes reflection
+    - promotes reflection
+
+fb_4_neg:
+  color: "#FBB25C"
+  tokens:
+    - confusing
+    - inaccessible
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks error identification
+    - lacks explanations
+    - too difficult
+    - too difficult
+    - too much work for very little reward
+    - too much work for very little reward
+    - too much work for very little reward
+
+
+fb_5_pos:
+  color: "#562888"
+  tokens:
+    - clear
+    - helps identify areas of improvement
+    - helps identify areas of improvement
+    - helps identify areas of improvement
+    - helps identify areas of improvement
+    - may work with basic mistakes
+    - promotes reflection
+    - promotes reflection
+    - promotes reflection
+
+
+fb_5_neg:
+  color: "#BEA0CC"
+  tokens:
+    - confusing
+    - inaccessible
+    - requires a 2nd round of feedback
+    - too difficult
+    - too difficult
+    - too much work for very little reward
+    - too much work for very little reward
+
+
+fb_6_pos:
+  color: "#A0451F"
+  tokens:
+    - promotes reflection
+    - promotes reflection
+    - promotes reflection
+    - promotes reflection
+    - useful to motivated students
+    - useful to motivated students
+    - useful to motivated students
+
+fb_6_neg:
+  color: "#C18E78"
+  tokens:
+    - inaccessible
+    - inaccessible
+    - inaccessible
+    - lacks explanations
+    - lacks explanations
+    - requires a 2nd round of feedback
+    - requires a 2nd round of feedback
+    - suggestive
+    - too difficult
+    - too much information
+    - too much work for very little reward
+    - too much work for very little reward
+    - too much work for very little reward
+    - unclear
+    - unclear
+
+fb_7_pos:
+  color: "#ACA746"
+  tokens:
+    - clear
+    - promotes reflection
+    - serves as a model
+    - serves as a model
+    - serves as a model
+    - serves as a model
+    - serves as a model
+
+fb_7_neg:
+  color: "#CCCAA0"
+  tokens:
+    - lacks explanations
+    - non-extrapolable
+    - non-extrapolable
+    - non-extrapolable
+    - non-motivational
+    - not targeted
+    - not targeted
+    - not targeted
+    - not targeted
+    - not targeted
+    - the job is done by the teacher
+    - too much information
+    - too much information
+    - too much work for very little reward
